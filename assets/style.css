@@ -46,3 +46,37 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 3.5em;
+    background-color: black;
+    color: whitesmoke;
+}
+
+footer .logo-text{
+    font-size: 1.5em;
+}
+
+footer p{
+    font-size: smaller;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer ul li{
+    font-size: 1.25em;
+    margin: 3px;
+}
+
+footer ul li a{
+    color: whitesmoke;
+    padding: 5px;
+}
+

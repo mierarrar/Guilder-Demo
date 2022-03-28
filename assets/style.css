@@ -47,6 +47,27 @@ table {
   border-spacing: 0;
 }
 
+/* Section 1 -> Homepage */
+
+#home-page{
+    background: #5556EF;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+nav ul{
+    display: flex;
+}
+
+#main{
+    text-align:center;
+}
+
+
 /* Section 4 -> Hype Card Page*/
 
 #hype-card{

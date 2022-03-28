@@ -27,7 +27,7 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
-}
+} 
 body {
   line-height: 1;
 }
@@ -49,8 +49,8 @@ table {
 
 /* Section 1 -> Homepage */
 
-#home-page{
-    background: #5556EF;
+main{
+    background: #8342FF;
     color: white;
 }
 nav{
@@ -59,14 +59,32 @@ nav{
     padding: 1em;
 }
 
-nav ul{
-    display: flex;
+nav *{
+    text-decoration: none;
+    color: white;
 }
 
-#main{
+#header-main{
     text-align:center;
+    padding: 15em;
 }
 
+#header-main p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+#header-main ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1em;
+    
+}
+#header-main ul a{
+    text-decoration: none;
+    color: white;
+}
 
 /* Section 4 -> Hype Card Page*/
 

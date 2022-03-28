@@ -117,8 +117,10 @@ nav *{
 
 /* Section 2 -> DeCo */
 
+#hero{
+    background-image:url(grid.svg);
+}
 #deco{
-    background: rgb(253, 245, 230);
     display: flex;
     justify-content: space-between;
     padding: 10em 3em;
@@ -150,9 +152,12 @@ nav *{
 
 /* Section 3 -> Aggregator */
 
+#aggregator{
+    background: black;
+}
 #aggregator-wrapper{
     margin: 5em;
-    padding: 5em;
+    padding: 9em;
     border-radius: 15px;
     background: #5556EF;
     color: white;
@@ -174,10 +179,9 @@ nav *{
 /* Section 4 -> Hype Card Page*/
 
 #hype-card{
-    background: rgb(253, 245, 230);
     display: flex;
     justify-content: space-between;
-    padding: 10em 3em;
+    padding: 8em 3em;
 }
 
 #header-hype-card {

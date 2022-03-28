@@ -107,7 +107,6 @@ nav *{
 }
 
 #orange-mascot{
-
     height: 15em;
 }
 
@@ -116,6 +115,38 @@ nav *{
     padding: 2.5em;
 }
 
+/* Section 2 -> DeCo */
+
+#deco{
+    background: rgb(253, 245, 230);
+    display: flex;
+    justify-content: space-between;
+    padding: 10em 3em;
+}
+
+#header-deco{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size:60px;
+    margin-bottom: 20px;
+}
+
+
+#deco-left{
+    margin: 0 1em;
+ }
+ 
+ #deco-left div{
+     background: #0E0E0E;
+     padding: 3em;
+     height: 10em;
+     border-radius: 1em;
+     width: 10em;
+ }
+ 
+ #deco-right{
+     margin: 2em;
+  }
 
 /* Section 3 -> Aggregator */
 

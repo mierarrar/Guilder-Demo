@@ -47,9 +47,41 @@ table {
   border-spacing: 0;
 }
 
+/* Section 4 -> Hype Card Page*/
+
+#hype-card{
+    background: rgb(253, 245, 230);
+    display: flex;
+    justify-content: space-between;
+    padding: 10em 3em;
+}
+
+#header-hype-card {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size:60px;
+    margin-bottom: 20px;
+}
+
+#hype-card-left{
+   margin: 0 1em;
+}
+
+#hype-card-left div{
+    background: #0E0E0E;
+    padding: 3em;
+    height: 10em;
+    border-radius: 1em;
+    width: 10em;
+}
+
+#hype-card-right{
+    margin: 2em;
+ }
+
 /* Section 5 -> Contact Page */
 
-#contact-page{
+#contact{
     background-color: #5556EF;
     color: whitesmoke;
     padding: 7em 3em 1em 4em;
@@ -57,20 +89,20 @@ table {
     justify-content: space-between;
 }
 
-.header-contact-page{
+.header-contact{
     font-size: 3em;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
 }
 
-#contact-page p{
+#contact p{
     font-family: 'Poppins', sans-serif;
 }
 
-#contact-page *{
+#contact *{
     padding:10px;
 }
-#contact-page button{
+#contact button{
     color: whitesmoke;
     background-color: black;
     border: none;
@@ -110,6 +142,7 @@ table {
     max-width:fit-content;
     padding: 2em;
 }
+
 /* Footer */
 
 footer{

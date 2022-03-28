@@ -55,6 +55,7 @@ body{
 
 body *{
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
 main{
@@ -68,9 +69,9 @@ main{
 }
 
 #logo-icon{
-    width: 2em;
+    width: 2.5em;
     padding-right: .3em;
-    margin-top: .5em;
+    margin-top: .4em;
 }
 
 #logo a {
@@ -102,6 +103,7 @@ main div *{
     display: flex;
     justify-content:center;
     margin-top: 1em;
+    font-size: .8em;
 }
 #header-main ul a{
     text-decoration: none;
@@ -126,7 +128,7 @@ main div *{
 /* Section 2 -> DeCo */
 
 #hero{
-    background-image:url(grid.svg);
+    background-image:url(images/grid.svg);
 }
 #deco{
     display: flex;

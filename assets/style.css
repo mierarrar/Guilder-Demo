@@ -47,14 +47,45 @@ table {
   border-spacing: 0;
 }
 
+/* Section 5 -> Contact Page */
 
+#contact-page{
+    background-color: #5556EF;
+    color: whitesmoke;
+    padding: 7em 2em 3em 5em;
+    display:flex;
+    justify-content: space-between;
+}
+
+.header-contact-page{
+    font-size: 3em;
+    font-weight: bold;
+    padding:5px;
+}
+
+
+#contact-page button{
+    color: whitesmoke;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    padding: .75em 5em; 
+    margin: 3em 0;
+}
+
+#text-design{
+    font-size: 7em;
+    -webkit-text-stroke: 1px white;
+	-webkit-text-fill-color: #5556EF;
+    
+}
 /* Footer */
 
 footer{
     display: flex;
     justify-content: space-between;
     padding: 3.5em;
-    background-color: black;
+    background-color: #0E0E0E;
     color: whitesmoke;
 }
 
@@ -73,6 +104,8 @@ footer ul {
 footer ul li{
     font-size: 1.25em;
     margin: 3px;
+    margin-top: 15px;
+
 }
 
 footer ul li a{

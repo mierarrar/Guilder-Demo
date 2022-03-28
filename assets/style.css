@@ -116,7 +116,7 @@ main div *{
     padding: 1em;
 }
 
-#orange-mascot{
+.orange-mascot{
     height: 15em;
 }
 
@@ -158,7 +158,7 @@ main div *{
  #deco-right{
      margin: 2em;
   }
-
+ 
 /* Section 3 -> Aggregator */
 
 #aggregator{
@@ -219,31 +219,31 @@ main div *{
 #contact{
     background-color: #5556EF;
     color: whitesmoke;
-    padding: 7em 3em 1em 4em;
-    display:flex;
+    padding: 3em 1em 0 3em; 
+}
+
+#wrapper-up{
+    display: flex;
     justify-content: space-between;
+}
+
+#wrapper-down{
+    display: flex;
+    justify-content: space-around;
 }
 
 .header-contact{
     font-size: 3em;
     font-weight: 700;
-    font-family: 'Poppins', sans-serif;
 }
 
-#contact p{
-    font-family: 'Poppins', sans-serif;
-}
-
-#contact *{
-    padding:10px;
-}
 #contact button{
     color: whitesmoke;
     background-color: black;
     border: none;
     border-radius: 7px;
     padding: .5em 3em;
-    margin: 3em 0;
+    margin-top: 2em;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -271,11 +271,8 @@ main div *{
     padding: 10px 40px;
 }
 
-#mascot{
-    background: orange;
-    border-radius: 50px;
-    max-width:fit-content;
-    padding: 2em;
+#contact-mascot{
+    width: 12em;
 }
 
 /* Footer */

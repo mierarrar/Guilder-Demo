@@ -53,10 +53,16 @@ main{
     background: #8342FF;
     color: white;
 }
+
 nav{
     display: flex;
     justify-content: space-between;
     padding: 1em;
+}
+
+nav a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
 }
 
 nav *{
@@ -86,6 +92,28 @@ nav *{
     color: white;
 }
 
+#main-bottom{
+    background: #0E0E0E;
+    padding: 2.5em;
+}
+
+
+/* Section 3 -> Aggregator */
+
+#aggregator-wrapper{
+    margin: 5em;
+    padding: 3em;
+    border-radius: 15px;
+    background: #5556EF;
+    color: white;
+    display: flex;
+}
+
+#aggregator-wrapper span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+}
 /* Section 4 -> Hype Card Page*/
 
 #hype-card{

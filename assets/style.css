@@ -67,7 +67,7 @@ body *{
 */
 main{
     background: #8342FF;
-    color: white;
+    color: white; 
 }
 
 #logo{
@@ -94,12 +94,14 @@ main div *{
 #header-main{
     text-align:center;
     padding: 1em;
+    
 }
 
 #robo-mascot{
-    width: 10em;
-    height: 10em;
-    margin: 2em;
+    height: 160px;
+    width: auto;
+    position: relative;
+    right: 15em;
 }
 #header-main p{
     font-size: 2.5em;
@@ -110,26 +112,36 @@ main div *{
     display: flex;
     justify-content:center;
     margin-top: 1em;
-    font-size: .8em;
+    font-size: 1em;
 }
 #header-main ul a{
     text-decoration: none;
-    color: white;
+    color: rgb(252, 248, 248);
     padding: .75em;
 }
 
 #mascots{
     text-align: center;
-    padding: 1em;
+    padding: 3em 2em 0 2em;
 }
 
-.orange-mascot{
+#blue-mascot{
+    margin-bottom: 3em;
+}
+
+#green-mascot{
+    margin-bottom: 3em;
+}
+
+#orange-mascot{
     height: 15em;
+    padding: 0 3em;
+    margin-bottom: -3px;
 }
 
 #main-bottom{
     background: #0E0E0E;
-    padding: 2.5em;
+    height: 100px;
 }
 
 /* Section 2 -> DeCo */

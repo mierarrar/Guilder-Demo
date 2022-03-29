@@ -19,7 +19,7 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  font-size: 100%; 
   font: inherit;
   vertical-align: baseline;
 }
@@ -161,14 +161,20 @@ main div *{
  
 /* Section 3 -> Aggregator */
 
-#aggregator{
-    background: black;
+
+#black-bg-aggregator{
+    background-image: url(images/black-bg-aggregator.svg);
+    height: 10em;
 }
+
 #aggregator-wrapper{
-    margin: 5em;
+    box-sizing:border-box;
+    margin: 2em;
+    max-width: fit-content;
     padding: 9em;
     border-radius: 15px;
-    background: #5556EF;
+    background-image: url(images/blue-bg-aggregator.svg);
+    background-repeat:no-repeat;
     color: white;
     display: flex;
 }
@@ -178,18 +184,21 @@ main div *{
     font-weight: 900;
 }
 
-#boa-flek{
-    width: 22rem;
-    height: 17rem;
-    border-radius: 10px;
+#aggregator-wrapper ul{
+    display: flex;
+    padding: 1em;
+}
+
+#aggregator-wrapper ul li a{
+    text-decoration: none;
+    padding: 2em;
 }
 
 /* Section 4 -> Hype Card Page*/
 
 #hype-card{
     display: flex;
-    justify-content: space-between;
-    padding: 8em 3em;
+    justify-content: space-around;
 }
 
 #header-hype-card {
@@ -200,14 +209,6 @@ main div *{
 
 #hype-card-left{
    margin: 0 1em;
-}
-
-#hype-card-left div{
-    background: #0E0E0E;
-    padding: 3em;
-    height: 10em;
-    border-radius: 1em;
-    width: 10em;
 }
 
 #hype-card-right{
@@ -222,14 +223,9 @@ main div *{
     padding: 3em 1em 0 3em; 
 }
 
-#wrapper-up{
+#wrapper{
     display: flex;
     justify-content: space-between;
-}
-
-#wrapper-down{
-    display: flex;
-    justify-content: space-around;
 }
 
 .header-contact{

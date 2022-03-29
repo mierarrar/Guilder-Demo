@@ -164,17 +164,27 @@ main div *{
 
 #black-bg-aggregator{
     background-image: url(images/black-bg-aggregator.svg);
-    height: 10em;
+    height: 290px;
+    width: auto;;
+    margin: 300px 0;
 }
 
 #aggregator-wrapper{
-    background-image: url(images/blue-bg-aggregator.svg);
-    background-repeat:no-repeat;
-    height: 100%;
-    margin: 2em;
+    background: #5556EF;
+    color: white;
+    border-radius: 30px;
+    height: 654px;
+    padding: 4em;
+    padding-top: 6em;
+    display: flex;
+   
+    margin: 2em 6em;
+    box-sizing: border-box;
+    position: absolute;
+    top: 95em;
 }
-/*
 
+/*
 #aggregator-wrapper{
     background-image: url(images/blue-bg-aggregator.svg);
     background-repeat:no-repeat;
@@ -183,6 +193,7 @@ main div *{
     color: white;
     display: flex;
 }
+*/
 
 #aggregator-wrapper span{
     font-size: 60px;
@@ -193,13 +204,13 @@ main div *{
     display: flex;
 }
 
-#aggregator-wrapper ul li a{
-    text-decoration: none;
+
+#aggregator-svg{
+    position: relative;
 }
 
-*/
 
-/* Section 4 -> Hype Card Page*/
+/* Section 4 -> Hype Card Page */
 
 #hype-card{
     margin: 3em;

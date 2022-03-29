@@ -179,7 +179,7 @@ main div *{
 #black-bg-aggregator{
     background-image: url(images/black-bg-aggregator.svg);
     height: 290px;
-    width: auto;;
+    width: auto;
     margin: 300px 0;
 }
 
@@ -192,7 +192,10 @@ main div *{
     display: flex;
     width: 960px;
     margin: auto;
-    margin-bottom: 3em;
+    position: absolute;
+    top: 102em;
+    left: 0;
+    right: 0;
 }
 
 #aggregator-main span{

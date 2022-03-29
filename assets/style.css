@@ -58,6 +58,12 @@ body *{
     box-sizing: border-box;
 }
 
+#wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+
 main{
     background: #8342FF;
     color: white;
@@ -130,10 +136,10 @@ main div *{
 #hero{
     background-image:url(images/grid.svg);
 }
-#deco{
+#wrapper-deco{
     display: flex;
     justify-content: space-between;
-    padding: 3em;
+    padding: 5em 3em 0 0;
     box-sizing: border-box;
 }
 
@@ -161,7 +167,6 @@ main div *{
  
 /* Section 3 -> Aggregator */
 
-
 #black-bg-aggregator{
     background-image: url(images/black-bg-aggregator.svg);
     height: 290px;
@@ -169,50 +174,35 @@ main div *{
     margin: 300px 0;
 }
 
-#aggregator-wrapper{
+#aggregator-main{
     background: #5556EF;
     color: white;
     border-radius: 30px;
     height: 654px;
-    padding: 4em;
-    padding-top: 6em;
+    padding: 6em;
     display: flex;
-   
     margin: 2em 6em;
-    box-sizing: border-box;
-    position: absolute;
-    top: 95em;
+    
 }
 
-/*
-#aggregator-wrapper{
-    background-image: url(images/blue-bg-aggregator.svg);
-    background-repeat:no-repeat;
-    box-sizing:border-box;
-    margin: 2em;
-    color: white;
-    display: flex;
-}
-*/
-
-#aggregator-wrapper span{
+#aggregator-main span{
     font-size: 60px;
     font-weight: 900;
 }
 
-#aggregator-wrapper ul{
+#aggregator-main ul{
     display: flex;
 }
 
-
 #aggregator-svg{
-    position: relative;
+    width: 50px;
+    height: auto;
 }
 
 
 /* Section 4 -> Hype Card Page */
 
-#hype-card{
+#wrapper-hype-card{
     margin: 3em;
     display: flex;
     justify-content: space-around;
@@ -264,14 +254,12 @@ main div *{
     font-family: 'Poppins', sans-serif;
 }
 
+/*
 #text-design{
+    margin: 1em;
     background: url(images/footer-eyes.svg);
-    height: 125px;
-    position:absolute;
-    top: 223em;
-    left: 3em;
 }
-
+*/
 #join-us-contact-svg{
    margin-top: 3em;
 }

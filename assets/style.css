@@ -236,38 +236,45 @@ main div *{
 /* Section 5 -> Contact Page */
 
 #contact{
-    background-color: #5556EF;
-    color: whitesmoke;
-    padding: 3em 1em 0 3em; 
-}
-
-#wrapper{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    background-color: #5556EF;
 }
 
-.header-contact{
-    font-size: 3em;
-    font-weight: 700;
+#wrapper-contact{
+    color: whitesmoke;
+    padding: 5em 4em;
+}
+
+#header-contact{
+    color: whitesmoke;
+    font-family: 'Russo One', sans-serif;
+    font-size: 4em;
+    margin-bottom: 10px;
 }
 
 #contact button{
+    box-sizing: border-box;
     color: whitesmoke;
     background-color: black;
     border: none;
-    border-radius: 7px;
-    padding: .5em 3em;
+    border-radius: 10px;
+    padding: 1em 6em;
     margin-top: 2em;
     font-family: 'Poppins', sans-serif;
 }
 
 #text-design{
-    font-size: 7em;
-    -webkit-text-stroke: 1px white;
-	-webkit-text-fill-color: #5556EF;
-    margin-top: 2.5em;
+    background: url(images/footer-eyes.svg);
+    height: 125px;
+    position:absolute;
+    top: 223em;
+    left: 3em;
 }
 
+#join-us-contact-svg{
+   margin-top: 3em;
+}
 
 /* Footer */
 
@@ -279,7 +286,6 @@ footer{
     background-color: #0E0E0E;
     color: whitesmoke;
 }
-
 
 footer p{
     font-size: x-small;
@@ -295,9 +301,9 @@ footer ul li{
     margin: .75em;
 }
 
-
 footer ul li a{
     color: whitesmoke;
     padding: 5px;
 }
 
+/* ================================== */

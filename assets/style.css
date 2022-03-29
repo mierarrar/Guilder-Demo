@@ -275,16 +275,15 @@ footer{
     display: flex;
     justify-content: space-between;
     padding: 3em;
+    height: 184px;
     background-color: #0E0E0E;
     color: whitesmoke;
 }
 
-footer .logo-text{
-    font-size: 1.5em;
-}
 
 footer p{
-    font-size: smaller;
+    font-size: x-small;
+    margin-top: 2.5em;
 }
 
 footer ul {
@@ -292,11 +291,10 @@ footer ul {
 }
 
 footer ul li{
-    font-size: 1.25em;
-    margin: 3px;
-    margin-top: 15px;
-
+    font-size: 1.5em;
+    margin: .75em;
 }
+
 
 footer ul li a{
     color: whitesmoke;

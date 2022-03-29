@@ -135,6 +135,7 @@ main div *{
 /* Section 2 -> DeCo */
 
 #hero{
+    padding: 3em 0;
     background-image:url(images/grid.svg);
 }
 #wrapper-deco{
@@ -142,6 +143,8 @@ main div *{
     justify-content: space-between;
     padding: 5em 3em 0 0;
     box-sizing: border-box;
+    width: 960px;
+    margin: auto;
 }
 
 #header-deco{
@@ -189,6 +192,7 @@ main div *{
     display: flex;
     width: 960px;
     margin: auto;
+    margin-bottom: 3em;
 }
 
 #aggregator-main span{
@@ -209,7 +213,9 @@ main div *{
     margin: 3em;
     display: flex;
     justify-content: space-around;
-    box-sizing: border-box;
+    width: 960px;
+    margin: auto;
+    margin-bottom: 3em;
 }
 
 #header-hype-card {
@@ -237,6 +243,8 @@ main div *{
 #wrapper-contact{
     color: whitesmoke;
     padding: 5em 4em;
+    width: 960px;
+    margin: auto;
 }
 
 #header-contact{

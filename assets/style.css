@@ -60,17 +60,16 @@ body *{
 main{
     background: #8342FF;
     color: white; 
-    overflow: hidden;
+    padding-top: 3em;
 }
 
 #name{
-    display: flex;
     padding: 1em;
+    margin-left: 2em;
 }
 
 #name a {
-    margin: .75em;
-    font-size: 1.5em;
+    font-size: 1.25em;
     text-decoration: none;
     color: white;
 }
@@ -79,29 +78,36 @@ main{
 #header-main{
     text-align:center;
     padding: 1em;
-    margin-top: -5em;
+    margin-top: 1em;
 }
 
 #robo-mascot{
     height: 160px;
     width: auto;
     position: relative;
-    right: 13em;
-    top: 1.9em;
-    transform: rotate(11deg);
+    right: 8.5em;
+    top: -4.8em;
+    z-index: 99;
+    transform: rotate(8deg);
 }
 
 #robo-with-box-mascot{
     height: 200px;
     width: auto;
-    position: relative;
-    top: 37.75em;
-    left: 25em;
+    position: absolute;
+    top: 85%;
+    left: 80%;
 }
 
 #header-main p{
-    font-size: 6em;
+    font-size: 7em;
     font-family: 'Russo One', sans-serif;
+    transform: rotate(-6deg);
+    margin-top: -1em;
+}
+#soon{
+    font-size: 5em;
+    text-shadow: 4px;
 }
 
 #header-main ul{
@@ -186,6 +192,7 @@ main{
 #wrapper-aggregator{
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden;
 }
 
 #black-bg-aggregator{
@@ -198,16 +205,17 @@ main{
 #aggregator-main{
     background: #5556EF;
     color: white;
-    border-radius: 30px;
+    border-radius: 40px;
     height: 570px;
     padding: 5em 3em;
     display: flex;
     width: 1095px;
     margin: auto;
     position: absolute;
-    top: 95em;
+    top: 97em;
     left: 0;
     right: 0;
+    overflow: hidden;
 }
 
 #aggregator-left{

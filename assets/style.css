@@ -52,17 +52,15 @@ table {
    ===================== */
 
 
-
 body *{
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-    
 }
 
 main{
     background: #8342FF;
     color: white; 
-    
+    overflow: hidden;
 }
 
 #name{
@@ -147,6 +145,7 @@ main{
 #hero{
     padding: 1em 0;
     background-image:url(images/grid.svg);
+    overflow: hidden;
 }
 #wrapper-deco{
     display: flex;
@@ -252,7 +251,7 @@ main{
 
 
 /* ===================== 
-   Section 1 -> Hype Cards 
+   Section 4 -> Hype Cards 
    ===================== */
 
 #wrapper-hype-card{
@@ -277,6 +276,7 @@ main{
 #contact{
     background-color: #5556EF;
     color: whitesmoke;
+    overflow: hidden;
 }
 
 #wrapper-contact{

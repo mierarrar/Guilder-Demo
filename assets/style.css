@@ -278,15 +278,19 @@ main div *{
 /* Section 5 -> Contact Page */
 
 #contact{
+    margin-left: 0;
+    margin-right: 0;
+}
+#wrapper-contact{
     display: flex;
     justify-content: space-around;
     background-color: #5556EF;
 }
 
-#wrapper-contact{
+#contact-left{
     color: whitesmoke;
-    padding: 5em 4em;
-    width: 960px;
+    padding: 3em 4em;
+    
     margin: auto;
 }
 
@@ -306,14 +310,16 @@ main div *{
     padding: 1em 6em;
     margin-top: 2em;
     font-family: 'Poppins', sans-serif;
+    font-size: 1em;
 }
 
-/*
 #text-design{
-    margin: 1em;
     background: url(images/footer-eyes.svg);
+    height: 125px;
+    margin-top: 3em;
+    margin-bottom: -3em;
 }
-*/
+
 #join-us-contact-svg{
    margin-top: 3em;
 }

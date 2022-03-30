@@ -52,6 +52,7 @@ table {
    ===================== */
 
 
+
 body *{
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
@@ -75,6 +76,7 @@ main{
     text-decoration: none;
     color: white;
 }
+
 
 #header-main{
     text-align:center;
@@ -275,7 +277,6 @@ main{
 #contact{
     background-color: #5556EF;
     color: whitesmoke;
-    
 }
 
 #wrapper-contact{
@@ -364,3 +365,9 @@ footer ul li a{
   
 
 /* ================================== */
+
+@media screen and (min-width: 577px) and (max-width: 960){
+    body{
+        display: none;
+    }
+}

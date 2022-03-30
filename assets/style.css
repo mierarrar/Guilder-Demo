@@ -248,15 +248,6 @@ main{
     margin: 3em 0 0 0;
 }
 
-/*
-#opensea-logo{
-    width: 1em;
-}
-
-#looksrare-logo{
-    width: 1em;
-}
-*/
 
 /* ===================== 
    Section 1 -> Hype Cards 
@@ -268,6 +259,7 @@ main{
     width: 960px;
     margin: auto;
     margin-bottom: 3em;
+    margin-top: -3em;
 }
 
 #header-hype-card {
@@ -312,6 +304,7 @@ main{
     margin-top: 2em;
     font-family: 'Poppins', sans-serif;
     font-size: 1em;
+    cursor: pointer;
 }
 
 #text-design{
@@ -356,5 +349,18 @@ footer ul li a{
     color: whitesmoke;
     padding: 5px;
 }
+
+/* Scroll Button */
+
+#scroll-btn {
+    position: fixed;
+    display: none;
+    bottom: 12.5em;
+    right: 1.5em;
+    z-index: 99;
+    cursor: pointer;
+    height: 3.25em;
+  }
+  
 
 /* ================================== */

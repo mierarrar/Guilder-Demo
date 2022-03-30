@@ -283,14 +283,14 @@ main div *{
 }
 #wrapper-contact{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #5556EF;
+    padding: 0 4em;
 }
 
 #contact-left{
     color: whitesmoke;
     padding: 3em 4em;
-    
     margin: auto;
 }
 
@@ -322,6 +322,7 @@ main div *{
 
 #join-us-contact-svg{
    margin-top: 3em;
+   margin-bottom: -3px;
 }
 
 /* Footer */

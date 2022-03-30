@@ -147,13 +147,13 @@ main div *{
 /* Section 2 -> DeCo */
 
 #hero{
-    padding: 3em 0;
+    padding: 1em 0;
     background-image:url(images/grid.svg);
 }
 #wrapper-deco{
     display: flex;
     justify-content: space-between;
-    padding: 5em 3em 0 0;
+    padding-top: 5em;
     box-sizing: border-box;
     width: 960px;
     margin: auto;
@@ -192,20 +192,20 @@ main div *{
     background-image: url(images/black-bg-aggregator.svg);
     height: 290px;
     width: auto;
-    margin: 300px 0;
+    margin: 220px 0;
 }
 
 #aggregator-main{
     background: #5556EF;
     color: white;
     border-radius: 30px;
-    height: 600px;
+    height: 570px;
     padding: 5em 3em;
     display: flex;
-    width: 960px;
+    width: 1095px;
     margin: auto;
     position: absolute;
-    top: 99em;
+    top: 95em;
     left: 0;
     right: 0;
 }
@@ -214,35 +214,41 @@ main div *{
     margin: 0 2em 0 0;
 }
 
-#aggregator-main span{
+#aggregator-left span{
     font-size: 60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
 }
 
-#aggregator-main p{
+#aggregator-left p{
     margin-top: 1em;
+    font-size: large;
+    line-height: 1.25em;
 }
 
-#aggregator-main ul{
+#aggregator-left ul{
     display: flex;
     justify-content: center;
     padding: 1em;
 }
 
-#aggregator-main ul li{
+#aggregator-left ul li{
     padding: 0 5px;
     font-size: 2em;
+}
+
+#nft-logo-group{
+    margin-top: 2em;
+    margin-left: 3em;
+    width: 400px;
 }
 
 #aggregator-svg{
     height: 270px;
     width: auto;
-    margin: 5em 1em 0 0;
+    margin: 3em 0 0 0;
 }
 
-#nft-logo-group{
-    margin-top: 2em;
-}
 /*
 #opensea-logo{
     width: 1em;
@@ -256,7 +262,6 @@ main div *{
 /* Section 4 -> Hype Card Page */
 
 #wrapper-hype-card{
-    margin: 3em;
     display: flex;
     justify-content: space-around;
     width: 960px;
@@ -269,14 +274,6 @@ main div *{
     font-size:60px;
     margin-top: 3em;
 }
-
-#hype-card-left{
-   margin: 0 1em;
-}
-
-#hype-card-right{
-    margin: 2em;
- }
 
 /* Section 5 -> Contact Page */
 

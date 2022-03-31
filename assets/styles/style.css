@@ -229,6 +229,7 @@ main{
     margin-bottom: 20px;
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
+    filter: drop-shadow(1px 1px 1px rgb(188, 19, 255));
 }
 
 .deco-description{
@@ -260,6 +261,7 @@ main{
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
+    
 }
 
 #black-bg-aggregator{
@@ -274,12 +276,12 @@ main{
     color: white;
     border-radius: 40px;
     height: 570px;
-    padding: 5em 3em;
+    padding: 5em 4em;
     display: flex;
     width: 1095px;
     margin: auto;
     position: absolute;
-    top: 100em;
+    top: 97em;
     left: 0;
     right: 0;
     overflow: hidden;
@@ -293,6 +295,7 @@ main{
     font-size: 60px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
+    filter: drop-shadow(1px 2px 2px rgb(1, 0, 63));
 }
 
 .aggregator-left p{
@@ -315,11 +318,11 @@ main{
 #nft-logo-group{
     margin-top: 2em;
     margin-left: 3em;
-    width: 400px;
+    width: 350px;
 }
 
 #aggregator-svg{
-    height: 270px;
+    height: 250px;
     width: auto;
     margin: 3em 0 0 0;
 }
@@ -343,6 +346,7 @@ main{
     margin-top: 3em;
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
+    filter: drop-shadow(1px 1px 1px rgb(188, 19, 255));
 }
 
 .hype-card-description{
@@ -370,6 +374,7 @@ main{
 
 .contact-left{
     margin: auto;
+    margin-left: 2em;
 }
 
 #header-contact{
@@ -377,6 +382,7 @@ main{
     font-family: 'Russo One', sans-serif;
     font-size: 4em;
     margin-bottom: 10px;
+    filter: drop-shadow(0px 2px 2px rgb(250, 0, 0));
 }
 
 .contact button{
@@ -385,15 +391,14 @@ main{
     background-color: black;
     border: none;
     border-radius: 10px;
-    padding: 1em 6em;
+    padding: 1em 5em;
     margin-top: 2em;
     font-size: 1.2em;
     cursor: pointer;
 }
 
 .contact button:hover{
-    background-color: rgb(255, 255, 255);
-    color:#8342FF
+    filter: drop-shadow(0px 1px 2px rgb(205, 129, 255));
 }
 
 #text-design{
@@ -405,6 +410,7 @@ main{
 
 #join-us-contact-svg{
    margin-top: 3em;
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 1));
 }
 
 /* ===================== 
@@ -440,7 +446,8 @@ footer ul li a{
 }
 
 footer ul li a:hover{
-    color:#8342FF;
+    filter: drop-shadow(1px 1px 1px rgb(188, 19, 255));
+    font-size: 1.1em;
 }
 
 /* Scroll Button */
@@ -453,6 +460,7 @@ footer ul li a:hover{
     z-index: 99;
     cursor: pointer;
     height: 3.25em;
+    filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
   }
   
 

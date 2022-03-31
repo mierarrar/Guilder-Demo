@@ -359,6 +359,17 @@ main{
     padding: .75em 0;
     font-size:25px;
 }
+
+#hype-card-svg,
+#deco-svg{
+    filter: drop-shadow(0px 3px 1px rgb(255, 19, 216));
+}
+
+#hype-card-svg:hover,
+#deco-svg:hover{
+    filter: drop-shadow(0px 4px 1.5px rgb(255, 19, 19));
+}
+
 /* ===================== 
    Section 5 -> Contact Page 
    ===================== */

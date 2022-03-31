@@ -63,23 +63,23 @@ main{
     color: white;  
 }
 
-#name{
+.name{
     padding: 2em;
     display: flex;
     justify-content: space-between;
 }
 
-#name a{
+.name a{
     color: white;
     text-decoration: none;
     font-size: 1.2em;
 }
-#launching-main{
+.launching-main{
     text-align:center;
     padding: 4em 1em 2em 1em;
 }
 
-#launching-main div:hover{
+.launching-main div:hover{
     font-weight: 900;
     color: rgb(143, 125, 143);
 }
@@ -88,10 +88,19 @@ main{
     height: 160px;
     width: auto;
     position: relative;
-    right: 8.5em;
+    right: 8.8em;
     top: -4.8em;
     z-index: 99;
     transform: rotate(8deg);
+    transition: transform 1s ease-in-out;
+}
+
+#robo-mascot:hover{
+    transform: rotate(368deg);
+}
+
+#robo-with-box-mascot:hover{
+    transform: rotate(360deg);
 }
 
 #robo-with-box-mascot{
@@ -100,9 +109,10 @@ main{
     position: absolute;
     top: 85vh;
     right: 5vh;
+    transition: transform .7s ease-in-out;
 }
 
-#launching-main p{
+.launching-main p{
     font-size: 7em;
     font-family: 'Russo One', sans-serif;
     transform: rotate(-6deg);
@@ -113,26 +123,30 @@ main{
     text-shadow: 4px;
 }
 
-#launching-main ul{
+.launching-main ul{
     display: flex;
     justify-content:center;
     margin-top: 1em;
     font-size: 1.2em;
 }
-#launching-main ul a{
+.launching-main ul a{
     text-decoration: none;
     color: rgb(252, 248, 248);
     padding: .75em;
 }
 
-#launching-main ul a:hover,
+.launching-main ul a:hover,
 #request-beta:hover{
     color: rgb(53, 51, 51);
 }
 
-#mascots{
+.mascots{
     text-align: center;
     padding: 3em 2em 0 2em;
+}
+
+#mascots:hover{
+    
 }
 
 #blue-mascot,
@@ -144,7 +158,7 @@ main{
 #orange-mascot{
     height: 229px;
     padding: 0 0;
-    margin-bottom: -3px;
+    margin: 0 2em -3px 2em;
 }
 
 #main-bottom{
@@ -156,12 +170,12 @@ main{
    Section 2 -> Deco 
    ===================== */
 
-#hero{
+.hero{
     padding: 1em 0;
     background-image:url(../images/grid.svg);
     overflow: hidden;
 }
-#wrapper-deco{
+.wrapper-deco{
     display: flex;
     justify-content: space-between;
     padding-top: 5em;
@@ -171,7 +185,7 @@ main{
     margin-top: 2em;
 }
 
-#header-deco{
+.header-deco{
     font-weight: bolder;
     font-size:60px;
     margin-bottom: 20px;
@@ -179,16 +193,16 @@ main{
     font-weight: 900;
 }
 
-#deco-description{
+.deco-description{
     line-height: 1.25em;
     font-size:25px;
 }
 
-#deco-left{
+.deco-left{
     margin: 0 1em;
  }
  
- #deco-left div{
+ .deco-left div{
      background: #0E0E0E;
      padding: 3em;
      height: 10em;
@@ -196,7 +210,7 @@ main{
      width: 10em;
  }
  
- #deco-right{
+ .deco-right{
      margin: 2em;
   }
  
@@ -204,7 +218,7 @@ main{
    Section 3 -> Aggregator 
    ===================== */
 
-#wrapper-aggregator{
+.wrapper-aggregator{
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
@@ -217,7 +231,7 @@ main{
     margin: 220px 0;
 }
 
-#aggregator-main{
+.aggregator-main{
     background: #5556EF;
     color: white;
     border-radius: 40px;
@@ -233,29 +247,29 @@ main{
     overflow: hidden;
 }
 
-#aggregator-left{
+.aggregator-left{
     margin: 0 2em 0 0;
 }
 
-#aggregator-left span{
+.aggregator-left span{
     font-size: 60px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
 }
 
-#aggregator-left p{
+.aggregator-left p{
     margin-top: 1em;
     font-size: 20px;
     line-height: 1.25em;
 }
 
-#aggregator-left ul{
+.aggregator-left ul{
     display: flex;
     justify-content: center;
     padding: 1em;
 }
 
-#aggregator-left ul li{
+.aggregator-left ul li{
     padding: 0 5px;
     font-size: 2em;
 }
@@ -277,7 +291,7 @@ main{
    Section 4 -> Hype Cards 
    ===================== */
 
-#wrapper-hype-card{
+.wrapper-hype-card{
     display: flex;
     justify-content: space-around;
     width: 960px;
@@ -286,14 +300,14 @@ main{
     margin-top: -3em;
 }
 
-#header-hype-card {
+.header-hype-card {
     font-size:60px;
     margin-top: 3em;
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
 }
 
-#hype-card-description{
+.hype-card-description{
     line-height: 1.25em;
     padding: .75em 0;
     font-size:25px;
@@ -302,13 +316,13 @@ main{
    Section 5 -> Contact Page 
    ===================== */
 
-#contact{
+.contact{
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
 }
 
-#wrapper-contact{
+.wrapper-contact{
     display: flex;
     justify-content: center;
     padding: 0 3em;
@@ -316,7 +330,7 @@ main{
     color: whitesmoke;
 }
 
-#contact-left{
+.contact-left{
     margin: auto;
 }
 
@@ -327,7 +341,7 @@ main{
     margin-bottom: 10px;
 }
 
-#contact button{
+.contact button{
     box-sizing: border-box;
     color: whitesmoke;
     background-color: black;
@@ -339,7 +353,7 @@ main{
     cursor: pointer;
 }
 
-#contact button:hover{
+.contact button:hover{
     background-color: rgb(255, 255, 255);
     color:#8342FF
 }
@@ -411,3 +425,4 @@ footer ul li a:hover{
         display: none;
     }
 }
+

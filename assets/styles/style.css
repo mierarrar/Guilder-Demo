@@ -807,7 +807,7 @@ footer ul li a:hover{
     .aggregator-left p,
     .hype-card-description,
     .deco-description{
-        font-size: 22px;
+        font-size: 20px;
     }
     
     .wrapper-contact{
@@ -906,11 +906,10 @@ footer ul li a:hover{
         color: white;
         border-radius: 40px;
         width: 100%;
-        height: 20em;
+        height: 22em;
         overflow: hidden;
         text-align: center;
         position: static;
-        padding-right: 2px;
     }
 
     .wrapper-aggregator{

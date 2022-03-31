@@ -79,6 +79,11 @@ main{
     padding: 4em 1em 2em 1em;
 }
 
+#launching-main div:hover{
+    font-weight: 900;
+    color: rgb(143, 125, 143);
+}
+
 #robo-mascot{
     height: 160px;
     width: auto;
@@ -153,7 +158,7 @@ main{
 
 #hero{
     padding: 1em 0;
-    background-image:url(images/grid.svg);
+    background-image:url(../images/grid.svg);
     overflow: hidden;
 }
 #wrapper-deco{
@@ -206,7 +211,7 @@ main{
 }
 
 #black-bg-aggregator{
-    background-image: url(images/black-bg-aggregator.svg);
+    background-image: url(../images/black-bg-aggregator.svg);
     height: 290px;
     width: auto;
     margin: 220px 0;
@@ -340,7 +345,7 @@ main{
 }
 
 #text-design{
-    background: url(images/footer-eyes.svg);
+    background: url(../images/footer-eyes.svg);
     height: 125px;
     margin-top: 3em;
     margin-bottom: -3em;

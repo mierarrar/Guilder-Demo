@@ -1,1 +1,3 @@
-# [Guilder Demo](guilder.netlify.app)
+# Guilder
+
+[View Demo](guilder.netlify.app)

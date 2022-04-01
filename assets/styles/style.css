@@ -299,6 +299,7 @@ main{
     left: 0;
     right: 0;
     overflow: hidden;
+    filter: drop-shadow(5px 5px 2px rgb(0, 0, 0));
 }
 
 .aggregator-left{
@@ -507,21 +508,16 @@ footer ul li a:hover{
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
 
-/* ===================================================== */
+/* ============================================================= */
 
 
 @media (min-width: 1100px) and (max-width: 1350px){
-    #robo-with-box-mascot{
-        display: none;
-    }
 
+    #robo-with-box-mascot,
+    #text-design,
     #join-us-contact-svg{
         display: none;
-     }
-
-    #text-design{
-         display: none;
-     }
+    }
 
     .wrapper-contact{
         height: 450px;
@@ -534,26 +530,22 @@ footer ul li a:hover{
 /* =============================================================== */
 
 
-@media (min-width: 830px) and (max-width: 1100px){
+@media (min-width: 845px) and (max-width: 1100px){
+
     #robo-with-box-mascot{
         display: none;
     }
 
-    #join-us-contact-svg{
-        display: none;
-     }
-
-    #text-design{
-         display: none;
-     }
-
-    .wrapper-contact{
-        height: 450px;
-        padding: 2em 3em;
-        display: grid;
-        place-content: center;
+    .wrapper-deco{
+        width: 100%;
+    }
+    
+    .header-deco{
+        font-size:40px;
+        margin-bottom: 20px;
     }
 
+    
     #aggregator-svg{
         display: none;
     }
@@ -568,71 +560,49 @@ footer ul li a:hover{
         overflow: hidden;
         text-align: center;
     }
-    
-    .wrapper-hype-card{
-        
-        width: 100px;
-    }
-    
+
     .header-hype-card {
         font-size:40px;
         margin-top: 3em;
     }
 
-    .wrapper-deco{
-        width: fit-content;
+    .wrapper-hype-card{
+        width: 100px;
     }
     
-    .header-deco{
-        font-size:40px;
-        margin-bottom: 20px;
+    #join-us-contact-svg{
+        display: none;
+     }
+
+    #text-design{
+         display: none;
+     }
+
+    .wrapper-contact{
+        height: 450px;
+        padding: 2em 3em;
+        display: grid;
+        place-content: center;
     }
 
 }
 
-@media (min-width: 450px) and (max-width: 830px){
+/* =============================================================== */
 
-    #robo-mascot{
-        display: none;
-    }
 
-    #robo-with-box-mascot{
-        display: none;
-    }
+@media (min-width: 450px) and (max-width: 845px){
 
-    #join-us-contact-svg{
-        display: none;
-     }
-
-    #text-design{
-         display: none;
-     }
-
+    #robo-mascot,
+    #robo-with-box-mascot,
+    #join-us-contact-svg,
+    #text-design,
     #blue-mascot,
-    #green-mascot{
-        display: none;
-    }
-
-    #robo-with-box-mascot{
-        display: none;
-    }
-
-    #join-us-contact-svg{
-        display: none;
-     }
-
-    #text-design{
-         display: none;
-     }
-
-     #aggregator-svg{
-        display: none;
-    }
-
-    #black-bg-aggregator{
-        display: none;
-    }
-
+    #green-mascot,
+    #robo-with-box-mascot,
+    #join-us-contact-svg,
+    #text-design,
+    #aggregator-svg,
+    #black-bg-aggregator,
     #hype-card-svg,
     #deco-svg,
     #nft-logo-group{
@@ -656,21 +626,10 @@ footer ul li a:hover{
     .wrapper-deco{
         width: fit-content;
         height: 30%;
-        margin-top: 2em;
-        margin-bottom: 3em;
+        margin: 1em 1em 4em 1em;
         text-align: center;
     }
 
-    .wrapper-hype-card{
-        margin-top: -1em;
-        margin-bottom: -1em;
-        margin-left: 3em;
-        margin-right: 3em;
-        width: fit-content;
-        height: 25em;
-        text-align: center;
-    }
-    
     .aggregator-main{
         background: #5556EF;
         color: white;
@@ -682,6 +641,7 @@ footer ul li a:hover{
         position: static;
         padding-right: 1.5em;
         padding-left: 1.5em;
+        filter: drop-shadow(0px 20px 10px rgb(0, 0, 0));
     }
 
     .wrapper-aggregator{
@@ -695,8 +655,19 @@ footer ul li a:hover{
     .hype-card-description,
     .deco-description{
         font-size: 25px;
+        font-weight: 700;
     }
     
+    .wrapper-hype-card{
+        margin-top: .5em;
+        margin-bottom: -1em;
+        margin-left: 3em;
+        margin-right: 3em;
+        width: fit-content;
+        height: 25em;
+        text-align: center;
+    }
+
     .wrapper-contact{
         padding: 5em 3em;
         display: grid;
@@ -704,6 +675,8 @@ footer ul li a:hover{
         font-size: 12px;
     }
 }
+
+/* =============================================================== */
 
 @media (max-width: 450px){
     #robo-mascot,
@@ -765,7 +738,6 @@ footer ul li a:hover{
         height: 45vh;
         overflow: hidden;
         position: static;
-        filter: drop-shadow(5px 5px 2px rgb(0, 0, 0));
         padding-top: 20%;
         padding-left: 4vh;
     }
@@ -801,3 +773,4 @@ footer ul li a:hover{
     }
 }
 
+/* =============================================================== */

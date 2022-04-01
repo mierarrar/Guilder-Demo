@@ -23,7 +23,6 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
@@ -47,9 +46,9 @@ table {
   border-spacing: 0;
 }
 
-/* ===================== 
-   Section 1 -> Homepage 
-   ===================== */
+
+/* ============================================================= */
+/* Section 1 -> Homepage */
 
 
 body *{
@@ -218,9 +217,8 @@ main{
     transform: rotate(30deg);
 }
 
-/* ===================== 
-   Section 2 -> Deco 
-   ===================== */
+/* ============================================================= */
+/* Section 5 -> Deco */
 
 .hero{
     padding: 1em 0;
@@ -268,9 +266,8 @@ main{
      margin: 2em;
   }
  
-/* ===================== 
-   Section 3 -> Aggregator 
-   ===================== */
+/* ============================================================= */
+/* Section 3 -> Aggregator */
 
 .wrapper-aggregator{
     margin-left: auto;
@@ -343,9 +340,8 @@ main{
 }
 
 
-/* ===================== 
-   Section 4 -> Hype Cards 
-   ===================== */
+/* ============================================================= */
+/* Section 4 -> Hype Card */
 
 .wrapper-hype-card{
     display: flex;
@@ -380,9 +376,8 @@ main{
     filter: drop-shadow(0px 4px 1.5px rgb(255, 19, 19));
 }
 
-/* ===================== 
-   Section 5 -> Contact Page 
-   ===================== */
+/* ============================================================= */
+/* Section 5 -> Contact Page */
 
 .contact{
     margin-left: auto;
@@ -441,9 +436,8 @@ main{
    filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 1));
 }
 
-/* ===================== 
-     Footer 
-   ===================== */
+/* ============================================================= */
+/* Footer */
 
 footer{
     display: flex;
@@ -477,6 +471,7 @@ footer ul li a:hover{
     filter: drop-shadow(1px 1px 1px rgb(188, 19, 255));
     font-size: 1.1em;
 }
+/* ============================================================= */
 
 /* Scroll Button */
 
@@ -492,7 +487,7 @@ footer ul li a:hover{
   }
   
 
-/* ===================================================== */
+/* ============================================================= */
 
 @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }

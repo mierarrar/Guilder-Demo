@@ -48,409 +48,54 @@ table {
 
 
 /* ============================================================= */
-/* Section 1 -> Homepage */
 
-
-body *{
-    font-family: 'Raleway', sans-serif;
+.wrapper{
     box-sizing: border-box;
+    height: 100%;
+    background-image:url(../images/hero.svg); 
 }
 
-body{
-    overflow-x: hidden;
-}
-main{
-    background: #8342FF;
-    color: white;  
-}
-
-.name{
-    padding: 2em;
-    display: flex;
-    justify-content: space-between;
-}
-
-.name button{
-    border-radius: 25px;
-    background: #020004;
+.beta{
     color: white;
-    border: none;
-    padding: 1em 2em;
+    font-family: 'Poppins', sans-serif;
     text-decoration: none;
-    font-size: .9em;
-}
-
-.name button:hover{
-    color: #280b5c;
-    background-color: white;;
-    cursor:pointer;
-    
-    
-}
-.launching-main{
-    text-align:center;
-    padding: 2em 1em 2em 1em;
-}
-
-#guilder{
-    height: 40px;
-    width: auto;
-    filter: drop-shadow(2px 2px 0px rgba(0, 0, 0, 1));
-}
-
-#request-beta{
-    margin: 0 1em 0 0;
-    font-size: 18px;
-}
-
-#robo-mascot{
-    height: 160px;
-    width: auto;
-    position: relative;
-    right: 8.8em;
-    top: -6em;
-    z-index: 99;
-    transform: rotate(8deg);
-    transition: transform 1s ease-in-out;
-    filter: drop-shadow(0px 3px 1px rgba(0, 0, 0, 1));
-}
-
-#robo-mascot:hover{
-    transform: rotate(20deg);
-    filter: drop-shadow(0px 3px 2px rgba(0, 0, 0, 1));
-}
-
-.launching-main p{
-    font-size: 7em;
-    font-family: 'Russo One', sans-serif;
-    transform: rotate(-6deg);
-    margin-top: -1em;
-    text-shadow: 8px 7px black;
-}
-
-.launching-main p:hover{
-    text-shadow: 3px 4px #ff0000, 10px 7px rgb(75, 0, 0);
-}
-
-#soon{
-    padding: 1em 0 0 0;
-    font-size: 5em;
-    text-shadow: 4px;
-    text-shadow: 5px 5px black;
-    display: inline-block;
-    transform: rotate(0deg);
-}
-
-#soon:hover{
-    text-shadow: 3px 4px #ff0000, 10px 7px rgb(75, 0, 0);
-    animation: shake 3s;
-    animation-iteration-count: 10;
-}
-
-.launching-main ul{
-    display: flex;
-    justify-content:center;
-    margin-top: 1em;
-    font-size: 15px;
-}
-.launching-main ul a{
-    text-decoration:double;
-    color: rgb(252, 248, 248);
-    padding: .5em;
-}
-
-.launching-main ul a:hover{
-    text-shadow: 1px 1px rgb(31, 26, 26);
-}
-
-.mascots{
-    text-align: center;
-    padding: 0 2em 0 2em;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-
-#blue-mascot,
-#green-mascot{
-    margin-bottom: 3em;
-    height: 202px;
-    filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 1));
-}
-
-.orange-mascot{
-    height: 229px;
-    padding: 0;
-    margin: 0 0 -3px 0;
-    filter: drop-shadow(0px 3px 2px rgba(0, 0, 0, 1));
-}
-
-#blue-mascot:hover{
-    filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 1)); 
-    transform: skewX(-1deg);
-}
-#green-mascot:hover{
-    filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 1));  
-    transform: skewX(1deg)
-}
-
-.orange-mascot:hover{
-    filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 1));
-}
-
-#main-bottom{
-    background: #0E0E0E;
-    height: 110px;
-    width: auto;
-}
-
-#robo-with-box-mascot{
-    height: 200px;
-    width: auto;
-    margin-left: 70em;
-    margin-top: -3em;
-    transition: transform 1s ease-in-out;
-    filter: drop-shadow(3px 2px 2px rgba(0, 0, 0, 1));
-}
-
-#robo-with-box-mascot:hover{
-    transform: rotate(30deg);
-}
-
-/* ============================================================= */
-/* Section 5 -> Deco */
-
-.hero{
-    padding: 1em 0;
-    background-image:url(../images/grid.svg);
-    overflow: hidden;
-    
-}
-.wrapper-deco{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 5em;
-    box-sizing: border-box;
-    width: 960px;
-    margin: auto;
-    margin-top: 2em;
-}
-
-.header-deco{
-    font-weight: bolder;
-    font-size:60px;
-    margin-bottom: 20px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 900;
-    filter: drop-shadow(1px 1px 1px rgb(188, 19, 255));
-}
-
-.deco-description{
-    line-height: 1.25em;
-    font-size:25px;
-}
-
-.deco-left{
-    margin: 0 1em;
- }
- 
- .deco-left div{
-     background: #0E0E0E;
-     padding: 3em;
-     height: 10em;
-     border-radius: 1em;
-     width: 10em;
- }
- 
- .deco-right{
-     margin: 2em;
-  }
- 
-/* ============================================================= */
-/* Section 3 -> Aggregator */
-
-.wrapper-aggregator{
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-}
-
-#black-bg-aggregator{
-    background-image: url(../images/black-bg-aggregator.svg);
-    height: 290px;
-    width: auto;
-    margin: 220px 0;
-}
-
-.aggregator-main{
-    background: #5556EF;
-    color: white;
-    border-radius: 40px;
-    height: 570px;
-    padding: 5em 4em;
-    display: flex;
-    width: 1095px;
-    margin: auto;
+    font-size:medium;
     position: absolute;
-    top: 97.5em;
-    left: 0;
-    right: 0;
-    overflow: hidden;
-    filter: drop-shadow(5px 5px 2px rgb(0, 0, 0));
+    top: 4%;
+    left: 87%;
+    padding: 10px;
 }
 
-.aggregator-left{
-    margin: 0 2em 0 0;
-}
-
-.aggregator-left span{
-    font-size: 60px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 900;
-    filter: drop-shadow(1px 2px 2px rgb(1, 0, 63));
-}
-
-.aggregator-left p{
-    margin-top: 1em;
-    font-size: 25px;
-    line-height: 1.25em;
-}
-
-.aggregator-left ul{
-    display: flex;
-    justify-content: center;
-    padding: 1em;
-}
-
-.aggregator-left ul li{
-    padding: 0 5px;
-    font-size: 2em;
-}
-
-#nft-logo-group{
-    margin-top: 2em;
-    margin-left: 3em;
-    width: 350px;
-}
-
-#aggregator-svg{
-    height: 250px;
-    width: auto;
-    margin: 3em 0 0 0;
+.beta:hover{
+    color: #280b5c;
+    cursor:pointer;
 }
 
 
-/* ============================================================= */
-/* Section 4 -> Hype Card */
-
-.wrapper-hype-card{
-    display: flex;
-    justify-content: space-around;
-    width: 960px;
-    margin: auto;
-    margin-bottom: 3em;
-    margin-top: -1em;
+.aggregator{
+    width: 100%;
 }
 
-.header-hype-card {
-    font-size:60px;
-    margin-top: 3em;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 900;
-    filter: drop-shadow(1px 1px 1px rgb(188, 19, 255));
+.deco,
+.hypecard{
+    width: 80%;
+    display: block;
+    margin: 5em auto 5em auto;
 }
-
-.hype-card-description{
-    line-height: 1.25em;
-    padding: .75em 0;
-    font-size:25px;
-}
-
-#hype-card-svg,
-#deco-svg{
-    filter: drop-shadow(0px 3px 1px rgb(255, 19, 216));
-}
-
-#hype-card-svg:hover,
-#deco-svg:hover{
-    filter: drop-shadow(0px 4px 1.5px rgb(255, 19, 19));
-}
-
-/* ============================================================= */
-/* Section 5 -> Contact Page */
 
 .contact{
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    overflow: hidden;
+    margin-bottom: -1em;
 }
-
-.wrapper-contact{
-    display: flex;
-    justify-content: center;
-    padding: 0 3em;
-    background-color: #5556EF;
-    color: whitesmoke;
-}
-
-.contact-left{
-    margin: auto;
-    margin-left: 2em;
-}
-
-#header-contact{
-    color: whitesmoke;
-    font-family: 'Russo One', sans-serif;
-    font-size: 4em;
-    margin-bottom: 10px;
-    filter: drop-shadow(0px 2px 2px rgb(250, 0, 0));
-}
-
-.contact button{
-    box-sizing: border-box;
-    color: whitesmoke;
-    background-color: black;
-    border: none;
-    border-radius: 10px;
-    padding: 20px 5em;
-    margin-top: 2em;
-    font-size: 1.3em;
-    cursor: pointer;
-    font-family: 'Russo One', sans-serif;
-}
-
-.contact button:hover{
-    color: black;
-    background: white;;
-}
-
-#text-design{
-    background: url(../images/footer-eyes.svg);
-    height: 125px;
-    margin-top: 3em;
-    margin-bottom: -3em;
-}
-
-#join-us-contact-svg{
-   margin-top: 3em;
-   filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 1));
-}
-
-/* ============================================================= */
-/* Footer */
 
 footer{
     display: flex;
-    justify-content: space-between;
-    padding: 3em;
-    height: 184px;
-    background-color: #0E0E0E;
+    justify-content:right;
+    background: black;
     color: whitesmoke;
-}
-
-footer p{
-    font-size: x-small;
-    margin-top: 2.5em;
+    height: 10em;
 }
 
 footer ul {
@@ -459,7 +104,8 @@ footer ul {
 
 footer ul li{
     font-size: 1.5em;
-    margin: .75em;
+    margin: 2em;
+    margin-top: 3em;
 }
 
 footer ul li a{
@@ -467,13 +113,9 @@ footer ul li a{
     padding: 5px;
 }
 
-footer ul li a:hover{
+footer ul a:hover{
     filter: drop-shadow(1px 1px 1px rgb(188, 19, 255));
-    font-size: 1.1em;
 }
-/* ============================================================= */
-
-/* Scroll Button */
 
 #scroll-btn {
     position: fixed;
@@ -487,285 +129,3 @@ footer ul li a:hover{
   }
   
 
-/* ============================================================= */
-
-@keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(-1px, -2px) rotate(-1deg); }
-    20% { transform: translate(-3px, 0px) rotate(1deg); }
-    30% { transform: translate(3px, 2px) rotate(0deg); }
-    40% { transform: translate(1px, -1px) rotate(1deg); }
-    50% { transform: translate(-1px, 2px) rotate(-1deg); }
-    60% { transform: translate(-3px, 1px) rotate(0deg); }
-    70% { transform: translate(3px, 1px) rotate(-1deg); }
-    80% { transform: translate(-1px, -1px) rotate(1deg); }
-    90% { transform: translate(1px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, -2px) rotate(-1deg); }
-  }
-
-/* ============================================================= */
-
-
-@media (min-width: 1100px) and (max-width: 1350px){
-
-    #robo-with-box-mascot,
-    #text-design,
-    #join-us-contact-svg{
-        display: none;
-    }
-
-    .wrapper-contact{
-        height: 450px;
-        padding: 2em 3em;
-        display: grid;
-        place-content: center;
-    }
-}
-
-/* =============================================================== */
-
-
-@media (min-width: 845px) and (max-width: 1100px){
-
-    #robo-with-box-mascot{
-        display: none;
-    }
-
-    .wrapper-deco{
-        width: 100%;
-    }
-    
-    .header-deco{
-        font-size:40px;
-        margin-bottom: 20px;
-    }
-
-    
-    #aggregator-svg{
-        display: none;
-    }
-
-    .aggregator-main{
-        background: #5556EF;
-        color: white;
-        border-radius: 40px;
-        width: 80%;
-        top: 97em;
-        display: flex;
-        overflow: hidden;
-        text-align: center;
-    }
-
-    .header-hype-card {
-        font-size:40px;
-        margin-top: 3em;
-    }
-
-    .wrapper-hype-card{
-        width: 100px;
-    }
-    
-    #join-us-contact-svg{
-        display: none;
-     }
-
-    #text-design{
-         display: none;
-     }
-
-    .wrapper-contact{
-        height: 450px;
-        padding: 2em 3em;
-        display: grid;
-        place-content: center;
-    }
-
-}
-
-/* =============================================================== */
-
-
-@media (min-width: 450px) and (max-width: 845px){
-
-    #robo-mascot,
-    #robo-with-box-mascot,
-    #join-us-contact-svg,
-    #text-design,
-    #blue-mascot,
-    #green-mascot,
-    #robo-with-box-mascot,
-    #join-us-contact-svg,
-    #text-design,
-    #aggregator-svg,
-    #black-bg-aggregator,
-    #hype-card-svg,
-    #deco-svg,
-    #nft-logo-group{
-        display: none;
-    }
-
-    .name button{
-        font-size: .7em;
-    }
-
-    .launching-main div{
-         margin-top: 8em;
-         font-size: 9px;
-     }
-
-     .header-deco,
-     .header-hype-card{
-        font-size:40px;
-    }
-
-    .wrapper-deco{
-        width: fit-content;
-        height: 30%;
-        margin: 1em 1em 4em 1em;
-        text-align: center;
-    }
-
-    .aggregator-main{
-        background: #5556EF;
-        color: white;
-        border-radius: 40px;
-        width: 100%;
-        height: 20em;
-        overflow: hidden;
-        text-align: center;
-        position: static;
-        padding-right: 1.5em;
-        padding-left: 1.5em;
-        filter: drop-shadow(0px 20px 10px rgb(0, 0, 0));
-    }
-
-    .wrapper-aggregator{
-        margin: 0 2em;
-    }
-    .aggregator-left span{
-        font-size: 40px;
-    }
-
-    .aggregator-left p,
-    .hype-card-description,
-    .deco-description{
-        font-size: 25px;
-        font-weight: 700;
-    }
-    
-    .wrapper-hype-card{
-        margin-top: .5em;
-        margin-bottom: -1em;
-        margin-left: 3em;
-        margin-right: 3em;
-        width: fit-content;
-        height: 25em;
-        text-align: center;
-    }
-
-    .wrapper-contact{
-        padding: 5em 3em;
-        display: grid;
-        place-content: center;
-        font-size: 12px;
-    }
-}
-
-/* =============================================================== */
-
-@media (max-width: 450px){
-    #robo-mascot,
-    #robo-with-box-mascot,
-    #join-us-contact-svg,
-    #text-design,
-    #blue-mascot,
-    #green-mascot,
-    #robo-with-box-mascot,
-    #join-us-contact-svg,
-    #text-design,
-    #aggregator-svg,
-    #black-bg-aggregator,
-    #hype-card-svg,
-    #deco-svg,
-    #nft-logo-group{
-        display: none;
-    }
-
-    .name button{
-        font-size: .5em;
-        padding: 1em 2em;
-        margin-top: 1em;
-        margin-right: -3em;
-    }
-
-    .launching-main div{
-         margin-top: 8em;
-         font-size: 40%;
-     }
-
-     .hero{
-         width: 100%;
-     }
-
-     .header-deco,
-     .header-hype-card{
-        font-size:40px;
-    }
-
-    .wrapper-deco{
-        width: fit-content;
-        padding: 0;
-        height: 40%;
-        margin: 2em .5em 2em -1em;
-        text-align: center;
-    }
-
-    .wrapper-hype-card{
-        width: 80%;
-        padding: 0;
-        height: 22em;
-        text-align: center;
-        margin-top: -2em;
-    }
-    
-    .aggregator-main{
-        width: 100%;
-        height: 45vh;
-        overflow: hidden;
-        position: static;
-        padding-top: 20%;
-        padding-left: 4vh;
-    }
-
-    .wrapper-aggregator{
-        margin: 0 1em;
-    }
-
-    .aggregator-left *{
-        width: 100%;
-    }
-    .aggregator-left span{
-        font-size: 40px;
-    }
-
-    .aggregator-left p,
-    .hype-card-description,
-    .deco-description{
-        font-size: 20px;
-        font-weight: 700;
-    }
-
-    .wrapper-contact{
-        padding: 5em 3em;
-        display: grid;
-        place-content: center;
-        font-size: 12px;
-    }
-
-    footer ul li a{
-        font-size: .75em;
-        margin-right: -1em;
-    }
-}
-
-/* =============================================================== */

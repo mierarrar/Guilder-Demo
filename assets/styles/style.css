@@ -46,10 +46,13 @@ table {
   border-spacing: 0;
 }
 
+@font-face {
+    font-family: 'global';
+    src: url(Global-mL1qm\ 3.ttf) format('truetype')
+  }
 
 /* ============================================================= */
 /* Section 1 -> Homepage */
-
 
 body *{
     font-family: 'Raleway', sans-serif;
@@ -64,13 +67,13 @@ main{
     color: white;  
 }
 
-.name{
-    padding: 2em;
+.top{
+    padding: 1em;
     display: flex;
     justify-content: space-between;
 }
 
-.name button{
+.top button{
     border-radius: 25px;
     background: #020004;
     color: white;
@@ -80,21 +83,21 @@ main{
     font-size: .9em;
 }
 
-.name button:hover{
+.top button:hover{
     color: #280b5c;
     background-color: white;;
     cursor:pointer;
-    
-    
 }
+
 .launching-main{
     text-align:center;
-    padding: 2em 1em 2em 1em;
+    padding: 12em 1em 2em 1em;
 }
 
 #guilder{
-    height: 40px;
+    height: 35px;
     width: auto;
+    margin: 1em;
 }
 
 #request-beta{
@@ -103,18 +106,15 @@ main{
 }
 
 .launching-main p{
-    padding-top: 1.5em;
-    font-size: 7em;
-    font-family: 'Russo One', sans-serif;
+    font-size: 100px;
+    font-family: 'global';
     margin-top: -1em;
-    text-shadow: 8px 7px black;
 }
 
 #soon{
     padding: 1em 0 0 0;
     font-size: 5em;
     display: inline-block;
-
 }
 
 .launching-main ul{
@@ -129,35 +129,28 @@ main{
     padding: .5em;
 }
 
-.launching-main ul a:hover{
-    text-shadow: 1px 1px rgb(31, 26, 26);
-}
-
 .mascots{
     text-align: center;
     padding: 0 2em 0 2em;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
 #blue-mascot,
 #green-mascot{
-    margin-bottom: 3em;
-    height: 202px;
+    margin-bottom: 1.5em;
+    height: 150px;
 }
 
 .orange-mascot{
-    height: 229px;
+    height: 170px;
     padding: 0;
-    margin: 0 0 -3px 0;
+    margin: 0 1em -3px 1em;
 }
-
-
 
 #main-bottom{
     background: #0E0E0E;
-    height: 110px;
+    height: 100px;
     width: auto;
 }
 
@@ -188,11 +181,9 @@ main{
 }
 
 .header-deco{
-    font-weight: bolder;
     font-size:60px;
     margin-bottom: 20px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 900;
+    font-family: 'global';
 }
 
 .deco-description{
@@ -242,7 +233,7 @@ main{
     width: 1095px;
     margin: auto;
     position: absolute;
-    top: 97.5em;
+    top: 92em;
     left: 0;
     right: 0;
     overflow: hidden;
@@ -303,8 +294,7 @@ main{
 .header-hype-card {
     font-size:60px;
     margin-top: 3em;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 900;
+    font-family: 'global';
 }
 
 .hype-card-description{
@@ -338,8 +328,8 @@ main{
 
 #header-contact{
     color: whitesmoke;
-    font-family: 'Russo One', sans-serif;
-    font-size: 4em;
+    font-family: "global";
+    font-size: 7em;
     margin-bottom: 10px;
 }
 

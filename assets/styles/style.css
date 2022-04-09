@@ -63,7 +63,7 @@ body{
     overflow-x: hidden;
 }
 main{
-    background: #8342FF;
+    background: url(../images/homepage-bg.svg);
     color: white;  
 }
 
@@ -150,7 +150,7 @@ main{
 
 #main-bottom{
     background: #0E0E0E;
-    height: 100px;
+    height: 90px;
     width: auto;
 }
 

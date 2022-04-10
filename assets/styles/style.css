@@ -62,6 +62,7 @@ body *{
 body{
     overflow-x: hidden;
 }
+
 main{
     background: url(../images/homepage-bg.svg);
     color: white;  
@@ -75,65 +76,50 @@ main{
 
 .top button{
     border-radius: 25px;
-    background: #020004;
+    background: #936EFF;
     color: white;
     border: none;
     padding: 1em 2em;
     text-decoration: none;
     font-size: .9em;
+    font-family: 'poppins';
 }
 
 .top button:hover{
     color: #280b5c;
-    background-color: white;;
+    background-color: white;
     cursor:pointer;
+}
+
+#guilder,
+#request-beta{
+    height: 30px;
+    margin: 1em;
 }
 
 .launching-main{
     text-align:center;
-    padding: 12em 1em 2em 1em;
-}
-
-#guilder{
-    height: 35px;
-    width: auto;
-    margin: 1em;
-}
-
-#request-beta{
-    margin: 0 1em 0 0;
-    font-size: 18px;
+    padding: 7em 0 2em 0;
 }
 
 .launching-main p{
-    font-size: 100px;
+    font-size: 116px;
     font-family: 'global';
-    margin-top: -1em;
-}
-
-#soon{
-    padding: 1em 0 0 0;
-    font-size: 5em;
-    display: inline-block;
 }
 
 .launching-main ul{
     display: flex;
     justify-content:center;
-    margin-top: 1em;
-    font-size: 15px;
+    gap: .5em;
+    font-size: 17px;
 }
 .launching-main ul a{
-    text-decoration:double;
+    text-decoration:none;
     color: rgb(252, 248, 248);
-    padding: .5em;
 }
 
 .mascots{
     text-align: center;
-    padding: 0 2em 0 2em;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #blue-mascot,
@@ -144,69 +130,54 @@ main{
 
 .orange-mascot{
     height: 170px;
-    padding: 0;
-    margin: 0 1em -3px 1em;
+    margin: 2em 1em -3px 1em;
 }
 
 #main-bottom{
     background: #0E0E0E;
-    height: 90px;
+    height: 100px;
     width: auto;
+    display: flex;
+    justify-content: right;
 }
 
 #robo-with-box-mascot{
+    margin: 2em;
     height: 200px;
-    width: auto;
-    margin-left: 70em;
     margin-top: -3em;
 }
 
 /* ============================================================= */
-/* Section 5 -> Deco */
+/* Section 2 -> Deco */
 
 .hero{
-    padding: 1em 0;
     background-image:url(../images/grid.svg);
-    overflow: hidden;
-    
+    overflow: hidden;  
 }
+
 .wrapper-deco{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 2.5em;
     padding-top: 5em;
-    box-sizing: border-box;
-    width: 960px;
-    margin: auto;
-    margin-top: 2em;
+    margin: 4em 12em;
 }
 
 .header-deco{
-    font-size:60px;
-    margin-bottom: 20px;
+    padding-top: 7px;
+    padding-bottom: .2em;
+    font-size:73px;
     font-family: 'global';
+    line-height: 65px;
 }
 
 .deco-description{
     line-height: 1.25em;
-    font-size:25px;
+    font-size:22px;
+    font-family: 'poppins';
+    color: rgb(48, 48, 48);
 }
 
-.deco-left{
-    margin: 0 1em;
- }
- 
- .deco-left div{
-     background: #0E0E0E;
-     padding: 3em;
-     height: 10em;
-     border-radius: 1em;
-     width: 10em;
- }
- 
- .deco-right{
-     margin: 2em;
-  }
- 
 /* ============================================================= */
 /* Section 3 -> Aggregator */
 
@@ -219,21 +190,21 @@ main{
 #black-bg-aggregator{
     background-image: url(../images/black-bg-aggregator.svg);
     height: 290px;
-    width: auto;
-    margin: 220px 0;
+    margin: 150px 0;
 }
 
 .aggregator-main{
     background: #5556EF;
     color: white;
     border-radius: 40px;
-    height: 570px;
-    padding: 5em 4em;
+    height: 33em;
+    width: 85%;
+    padding: 5em 5em;
     display: flex;
-    width: 1095px;
+    align-items: center;
     margin: auto;
     position: absolute;
-    top: 92em;
+    top: 99em;
     left: 0;
     right: 0;
     overflow: hidden;
@@ -244,63 +215,52 @@ main{
 }
 
 .aggregator-left span{
-    font-size: 60px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 900;
+    font-size: 73px;
+    font-family:'global';
+    line-height: 65px;
 }
 
 .aggregator-left p{
-    margin-top: 1em;
-    font-size: 25px;
     line-height: 1.25em;
-}
-
-.aggregator-left ul{
-    display: flex;
-    justify-content: center;
-    padding: 1em;
-}
-
-.aggregator-left ul li{
-    padding: 0 5px;
-    font-size: 2em;
-}
-
-#nft-logo-group{
-    margin-top: 2em;
-    margin-left: 3em;
-    width: 350px;
+    font-size:22px;
+    font-family: 'poppins';
+    color: white;
 }
 
 #aggregator-svg{
-    height: 250px;
+    height: 300px;
     width: auto;
-    margin: 3em 0 0 0;
 }
 
+#blue-robot{
+    height: 10em;
+    position: absolute;
+    top: 125em;
+    left: 6em;
+}
 
 /* ============================================================= */
 /* Section 4 -> Hype Card */
 
 .wrapper-hype-card{
     display: flex;
-    justify-content: space-around;
-    width: 960px;
-    margin: auto;
-    margin-bottom: 3em;
-    margin-top: -1em;
+    justify-content: center;
+    margin: 4em 12em 6em 12em;
 }
 
 .header-hype-card {
-    font-size:60px;
-    margin-top: 3em;
+    padding-top: 2em;
+    padding-bottom: .2em;
+    font-size:73px;
     font-family: 'global';
+    line-height: 65px;
 }
 
 .hype-card-description{
     line-height: 1.25em;
-    padding: .75em 0;
-    font-size:25px;
+    font-size:22px;
+    font-family: 'poppins';
+    color: rgb(48, 48, 48);
 }
 
 
@@ -315,22 +275,21 @@ main{
 
 .wrapper-contact{
     display: flex;
-    justify-content: center;
-    padding: 0 3em;
-    background-color: #5556EF;
-    color: whitesmoke;
+    align-items: center;
+    background-color: #8342FF;
+    color: #F7F5FF;
+    padding: 6em 4em 0 4em;
 }
 
 .contact-left{
     margin: auto;
-    margin-left: 2em;
 }
 
 #header-contact{
     color: whitesmoke;
     font-family: "global";
-    font-size: 7em;
-    margin-bottom: 10px;
+    font-size: 164px;
+    line-height: 15vh;
 }
 
 .contact button{
@@ -339,11 +298,10 @@ main{
     background-color: black;
     border: none;
     border-radius: 10px;
-    padding: 20px 5em;
+    padding: 15px 4em;
     margin-top: 2em;
-    font-size: 1.3em;
+    font-size: 1.2em;
     cursor: pointer;
-    font-family: 'Russo One', sans-serif;
 }
 
 .contact button:hover{
@@ -352,14 +310,13 @@ main{
 }
 
 #text-design{
-    background: url(../images/footer-eyes.svg);
-    height: 125px;
-    margin-top: 3em;
-    margin-bottom: -3em;
+    padding: 2em 0;
+    
 }
 
-#join-us-contact-svg{
-   margin-top: 3em;
+#contact-svg{
+  
+
 }
 
 /* ============================================================= */
@@ -368,35 +325,34 @@ main{
 footer{
     display: flex;
     justify-content: space-between;
-    padding: 3em;
-    height: 184px;
+    padding: 2.5em;
     background-color: #0E0E0E;
     color: whitesmoke;
 }
 
 footer p{
     font-size: x-small;
-    margin-top: 2.5em;
+    margin-top: 3em;
 }
 
 footer ul {
     display: flex;
+    align-items: center;
+    gap: 3em;
 }
 
 footer ul li{
     font-size: 1.5em;
-    margin: .75em;
 }
 
 footer ul li a{
-    color: whitesmoke;
-    padding: 5px;
+    color: white;
 }
 
 footer ul li a:hover{
-    filter: drop-shadow(1px 1px 1px rgb(188, 19, 255));
-    font-size: 1.1em;
+    color:antiquewhite;
 }
+
 /* ============================================================= */
 
 /* Scroll Button */
@@ -417,7 +373,7 @@ footer ul li a:hover{
 
 @media (min-width: 1100px) and (max-width: 1350px){
 
-    #robo-with-box-mascot,
+    
     #text-design,
     #join-us-contact-svg{
         display: none;
@@ -436,7 +392,8 @@ footer ul li a:hover{
 
 @media (min-width: 845px) and (max-width: 1100px){
 
-    #robo-with-box-mascot{
+    #robo-with-box-mascot,
+    #blue-robot{
         display: none;
     }
 

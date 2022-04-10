@@ -199,7 +199,7 @@ main{
     border-radius: 40px;
     height: 33em;
     width: 85%;
-    padding: 5em 5em;
+    padding: 5em 3em;
     display: flex;
     align-items: center;
     margin: auto;
@@ -289,7 +289,7 @@ main{
     color: whitesmoke;
     font-family: "global";
     font-size: 164px;
-    line-height: 15vh;
+    line-height: 145px;
 }
 
 .contact button{
@@ -315,8 +315,7 @@ main{
 }
 
 #contact-svg{
-  
-
+    margin-bottom: -5em;
 }
 
 /* ============================================================= */
@@ -371,41 +370,19 @@ footer ul li a:hover{
 
 /* ============================================================= */
 
-@media (min-width: 1100px) and (max-width: 1350px){
-
-    
-    #text-design,
-    #join-us-contact-svg{
-        display: none;
-    }
-
-    .wrapper-contact{
-        height: 450px;
-        padding: 2em 3em;
-        display: grid;
-        place-content: center;
-    }
+@media (min-width: 1200px) and (max-width: 1310px){
+   #aggregator-svg{
+       width: 25.5em;
+   }
 }
 
-/* =============================================================== */
-
-
-@media (min-width: 845px) and (max-width: 1100px){
-
-    #robo-with-box-mascot,
-    #blue-robot{
-        display: none;
+@media (min-width: 1120px) and (max-width: 1200px){
+    #aggregator-svg{
+        width: 22em;
     }
+ }
 
-    .wrapper-deco{
-        width: 100%;
-    }
-    
-    .header-deco{
-        font-size:40px;
-        margin-bottom: 20px;
-    }
-
+@media (min-width: 1000px) and (max-width: 1120px){
     
     #aggregator-svg{
         display: none;
@@ -416,222 +393,738 @@ footer ul li a:hover{
         color: white;
         border-radius: 40px;
         width: 80%;
-        top: 97em;
+        top: 100em;
         display: flex;
         overflow: hidden;
         text-align: center;
+        height: 30em;
     }
 
-    .header-hype-card {
-        font-size:40px;
-        margin-top: 3em;
-    }
-
-    .wrapper-hype-card{
-        width: 100px;
-    }
-    
-    #join-us-contact-svg{
+    #contact-svg{
         display: none;
-     }
-
-    #text-design{
-         display: none;
-     }
-
-    .wrapper-contact{
-        height: 450px;
-        padding: 2em 3em;
-        display: grid;
-        place-content: center;
     }
-
 }
 
-/* =============================================================== */
+@media (min-width: 750px) and (max-width: 1000px){
+    
+    main{
+        background:#8342FF;
+    }
 
+    .launching-main p{
+        font-size: 90px;
+    }
 
-@media (min-width: 450px) and (max-width: 845px){
+    .header-deco,
+    .header-hype-card {
+        font-size: 55px;
+        line-height: 50px;
+    }
 
-    #robo-mascot,
-    #robo-with-box-mascot,
-    #join-us-contact-svg,
-    #text-design,
-    #blue-mascot,
-    #green-mascot,
-    #robo-with-box-mascot,
-    #join-us-contact-svg,
-    #text-design,
-    #aggregator-svg,
-    #black-bg-aggregator,
-    #hype-card-svg,
+    .deco-description,
+    .hype-card-description{
+        line-height: 1em;
+        font-size:17px;
+    }
+
     #deco-svg,
-    #nft-logo-group{
+    #hype-card-svg{
+        width: 20em;
+    }
+
+    #black-bg-aggregator{
+        margin: 12em 0;
+    }
+    #aggregator-svg,
+    #contact-svg{
         display: none;
-    }
-
-    .name button{
-        font-size: .7em;
-    }
-
-    .launching-main div{
-         margin-top: 8em;
-         font-size: 9px;
-     }
-
-     .header-deco,
-     .header-hype-card{
-        font-size:40px;
-    }
-
-    .wrapper-deco{
-        width: fit-content;
-        height: 30%;
-        margin: 1em 1em 4em 1em;
-        text-align: center;
     }
 
     .aggregator-main{
         background: #5556EF;
         color: white;
         border-radius: 40px;
-        width: 100%;
-        height: 20em;
+        width: 80%;
+        top: 90em;
+        display: flex;
         overflow: hidden;
         text-align: center;
-        position: static;
-        padding-right: 1.5em;
-        padding-left: 1.5em;
-        filter: drop-shadow(0px 20px 10px rgb(0, 0, 0));
+        height: 30em;
     }
 
-    .wrapper-aggregator{
-        margin: 0 2em;
+    #blue-robot{
+        height: 10em;
+        position: absolute;
+        top: 113em;
+        left: 3em;
     }
+
+    #header-contact{
+        font-size: 140px;
+        line-height: 130px;
+    }
+}
+
+
+@media (min-width: 600px) and (max-width: 750px){
+    main{
+        background:#8342FF;
+    }
+
+    .launching-main p{
+        font-size: 70px;
+    }
+
+    #robo-with-box-mascot{
+        display: none;
+    }
+
+    #blue-mascot,
+    #green-mascot{
+        width: 6em;
+        margin-bottom: 1em;
+    }
+
+    .orange-mascot{
+        width: 7.5em;
+        margin-bottom: -15px;
+    }
+
+    .header-deco,
+    .header-hype-card {
+        font-size: 45px;
+        line-height: 40px;
+    }
+
+    .deco-description,
+    .hype-card-description{
+        line-height: 1em;
+        font-size:12px;
+    }
+
+    #deco-svg,
+    #hype-card-svg{
+        width: 17em;
+    }
+
+    #black-bg-aggregator{
+        height: 12em;
+        margin: 12em 0;
+    }
+
+    #aggregator-svg,
+    #contact-svg{
+        display: none;
+    }
+
     .aggregator-left span{
-        font-size: 40px;
+        font-size: 55px;
+        line-height: 45px;
     }
 
-    .aggregator-left p,
-    .hype-card-description,
-    .deco-description{
-        font-size: 25px;
-        font-weight: 700;
-    }
-    
-    .wrapper-hype-card{
-        margin-top: .5em;
-        margin-bottom: -1em;
-        margin-left: 3em;
-        margin-right: 3em;
-        width: fit-content;
-        height: 25em;
+    .aggregator-main{
+        background: #5556EF;
+        color: white;
+        border-radius: 40px;
+        width: 80%;
+        top: 80em;
+        display: flex;
+        overflow: hidden;
         text-align: center;
+        height: 25em;
     }
 
-    .wrapper-contact{
-        padding: 5em 3em;
-        display: grid;
-        place-content: center;
-        font-size: 12px;
+    #blue-robot{
+        height: 8em;
+        position: absolute;
+        top: 100em;
+        left: 3em;
+    }
+
+    .wrapper-hype-card{
+        margin-bottom: 9em;
+    }
+
+    #header-contact{
+        font-size: 100px;
+        line-height: 90px;
     }
 }
 
 /* =============================================================== */
 
-@media (max-width: 450px){
-    #robo-mascot,
-    #robo-with-box-mascot,
-    #join-us-contact-svg,
-    #text-design,
-    #blue-mascot,
-    #green-mascot,
-    #robo-with-box-mascot,
-    #join-us-contact-svg,
-    #text-design,
-    #aggregator-svg,
-    #black-bg-aggregator,
-    #hype-card-svg,
-    #deco-svg,
-    #nft-logo-group{
+@media (min-width: 550px) and (max-width: 600px){
+    main{
+        background:#8342FF;
+    }
+
+    .launching-main p{
+        font-size: 65px;
+    }
+
+    #robo-with-box-mascot{
         display: none;
     }
 
-    .name button{
-        font-size: .5em;
-        padding: 1em 2em;
-        margin-top: 1em;
-        margin-right: -3em;
+    #blue-mascot,
+    #green-mascot{
+        width: 5em;
+        margin-bottom: -5px;
     }
 
-    .launching-main div{
-         margin-top: 8em;
-         font-size: 40%;
-     }
-
-     .hero{
-         width: 100%;
-     }
-
-     .header-deco,
-     .header-hype-card{
-        font-size:40px;
+    .orange-mascot{
+        width: 7em;
+        margin-bottom: -20px;
     }
 
-    .wrapper-deco{
-        width: fit-content;
-        padding: 0;
-        height: 40%;
-        margin: 2em .5em 2em -1em;
+    .header-deco,
+    .header-hype-card {
+        font-size: 35px;
+        line-height: 32px;
+    }
+
+    .deco-description,
+    .hype-card-description{
+        line-height: 1em;
+        font-size:10px;
+    }
+
+    .aggregator-left span{
+        font-size: 40px;
+        line-height: 32px;
+    }
+
+    .aggregator-left p{
+        padding-top: 1em;
+        line-height: 1em;
+        font-size:10px;
+    }
+
+    #deco-svg,
+    #hype-card-svg{
+        width: 15em;
+    }
+
+    #black-bg-aggregator{
+        height: 12em;
+        margin: 12em 0;
+    }
+
+    #aggregator-svg,
+    #contact-svg{
+        display: none;
+    }
+
+    .aggregator-left span{
+        font-size: 55px;
+        line-height: 45px;
+    }
+
+    .aggregator-main{
+        background: #5556EF;
+        color: white;
+        border-radius: 40px;
+        width: 80%;
+        top: 77em;
+        display: flex;
+        overflow: hidden;
         text-align: center;
+        height: 25em;
+    }
+
+    #blue-robot{
+        height: 8em;
+        position: absolute;
+        top: 96em;
+        left: 3em;
     }
 
     .wrapper-hype-card{
-        width: 80%;
-        padding: 0;
-        height: 22em;
-        text-align: center;
-        margin-top: -2em;
-    }
-    
-    .aggregator-main{
-        width: 100%;
-        height: 45vh;
-        overflow: hidden;
-        position: static;
-        padding-top: 20%;
-        padding-left: 4vh;
+        margin-bottom: 9em;
     }
 
-    .wrapper-aggregator{
-        margin: 0 1em;
+    #header-contact{
+        font-size: 90px;
+        line-height: 80px;
     }
 
-    .aggregator-left *{
-        width: 100%;
-    }
-    .aggregator-left span{
-        font-size: 40px;
+    .contact-left button{
+        font-size: 1em;
     }
 
-    .aggregator-left p,
-    .hype-card-description,
-    .deco-description{
-        font-size: 20px;
-        font-weight: 700;
+    #text-design{
+        margin-left: -4em;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 550px){
+    main{
+        background:#8342FF;
     }
 
-    .wrapper-contact{
-        padding: 5em 3em;
-        display: grid;
-        place-content: center;
+    .launching-main p{
+        font-size: 55px;
+    }
+
+    .launching-main ul li{
         font-size: 12px;
     }
 
-    footer ul li a{
-        font-size: .75em;
-        margin-right: -1em;
+    #request-beta{
+        font-size: 12px;
+    }
+
+    #robo-with-box-mascot{
+        display: none;
+    }
+
+    #blue-mascot,
+    #green-mascot{
+        width: 5em;
+        margin-bottom: -5px;
+    }
+
+    .orange-mascot{
+        width: 7em;
+        margin-bottom: -20px;
+    }
+
+    .header-deco,
+    .header-hype-card,
+    #header-aggregator {
+        font-size: 35px;
+        line-height: 32px;
+    }
+
+    .deco-description,
+    .hype-card-description{
+        line-height: 1em;
+        font-size:10px;
+    }
+
+    .aggregator-left p{
+        padding-top: 1em;
+        line-height: 1em;
+        font-size:10px;
+    }
+
+    #deco-svg,
+    #hype-card-svg{
+        width: 15em;
+    }
+
+    #black-bg-aggregator{
+        height: 12em;
+        margin: 9em 0;
+    }
+
+    #aggregator-svg,
+    #contact-svg{
+        display: none;
+    }
+
+    .aggregator-left span{
+        font-size: 55px;
+        line-height: 45px;
+    }
+
+    .aggregator-main{
+        background: #5556EF;
+        color: white;
+        border-radius: 40px;
+        width: 80%;
+        top: 75em;
+        overflow: hidden;
+        text-align: center;
+        height: 20em;
+    }
+
+    #blue-robot{
+        height: 8em;
+        position: absolute;
+        top: 90em;
+        left: 3em;
+    }
+
+    .wrapper-hype-card{
+        margin-bottom: 9em;
+    }
+
+    #header-contact{
+        font-size: 90px;
+        line-height: 80px;
+    }
+
+    .contact-left button{
+        font-size: 1em;
+    }
+
+    #text-design{
+        margin-left: -4em;
     }
 }
+
+@media (min-width: 400px) and (max-width: 500px){
+    main{
+        background:#8342FF;
+    }
+
+    .launching-main p{
+        font-size: 45px;
+    }
+
+    .launching-main ul li{
+        font-size: 10px;
+    }
+
+    #request-beta{
+        font-size: 10px;
+    }
+
+    #robo-with-box-mascot{
+        display: none;
+    }
+
+    #blue-mascot,
+    #green-mascot{
+        width: 4em;
+        margin-bottom: 4px;
+    }
+
+    .orange-mascot{
+        width: 6em;
+        margin-bottom: -30px;
+    }
+
+    .header-deco,
+    .header-hype-card,
+    #header-aggregator {
+        font-size: 30px;
+        line-height: 23px;
+    }
+
+    .deco-description,
+    .hype-card-description{
+        line-height: 1em;
+        font-size:10px;
+    }
+
+    .aggregator-left p{
+        padding-top: 1em;
+        line-height: 1em;
+        font-size:10px;
+    }
+
+    #deco-svg,
+    #hype-card-svg{
+        width: 10em;
+    }
+
+    #black-bg-aggregator{
+        height: 9em;
+        margin: 9em 0;
+    }
+
+    #aggregator-svg,
+    #contact-svg{
+        display: none;
+    }
+
+
+    .aggregator-left span{
+        font-size: 55px;
+        line-height: 45px;
+    }
+
+    .aggregator-main{
+        background: #5556EF;
+        color: white;
+        border-radius: 40px;
+        width: 80%;
+        top: 68em;
+        overflow: hidden;
+        text-align: center;
+        height: 17em;
+    }
+
+    #blue-robot{
+        height: 7em;
+        position: absolute;
+        top: 80em;
+        left: 2.5em;
+    }
+
+    .wrapper-hype-card{
+        margin-bottom: 9em;
+    }
+
+    #header-contact{
+        font-size: 70px;
+        line-height: 60px;
+    }
+
+    .contact-left button{
+        font-size: 1em;
+    }
+
+    #text-design{
+        margin-left: -4em;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 500px){
+    main{
+        background:#8342FF;
+    }
+
+    .launching-main p{
+        font-size: 40px;
+    }
+
+    .launching-main ul li{
+        font-size: 8px;
+    }
+
+    #request-beta,
+    #guilder {
+        font-size: 9px;
+    }
+
+    #robo-with-box-mascot{
+        display: none;
+    }
+
+    #blue-mascot,
+    #green-mascot{
+        width: 3.5em;
+        margin-bottom: -10px;
+    }
+
+    .orange-mascot{
+        width: 5em;
+        margin-bottom: -40px;
+    }
+
+    .header-deco,
+    .header-hype-card,
+    #header-aggregator {
+        font-size: 20px;
+        line-height: 15px;
+    }
+
+    .deco-description,
+    .hype-card-description{
+        line-height: 1em;
+        font-size:7px;
+    }
+
+    .aggregator-left p{
+        padding-top: 1em;
+        line-height: 1em;
+        font-size:10px;
+    }
+
+    #deco-svg,
+    #hype-card-svg{
+        width: 10em;
+    }
+
+    #black-bg-aggregator{
+        height: 9em;
+        margin: 6em 0;
+    }
+
+    #aggregator-svg,
+    #contact-svg{
+        display: none;
+    }
+
+    .aggregator-left span{
+        font-size: 55px;
+        line-height: 45px;
+    }
+
+    .aggregator-left {
+        margin-left: 2em;
+    }
+
+    .aggregator-main{
+        background: #5556EF;
+        color: white;
+        border-radius: 40px;
+        width: 80%;
+        top: 63em;
+        overflow: hidden;
+        text-align: center;
+        height: 15em;
+
+    }
+
+    #blue-robot{
+        height: 6em;
+        position: absolute;
+        top: 75em;
+        left: 2em;
+    }
+
+    .wrapper-hype-card{
+        margin-bottom: 9em;
+    }
+
+    #header-contact{
+        font-size: 60px;
+        line-height: 50px;
+    }
+
+    .contact-left button{
+        font-size: .75em;
+    }
+
+    #text-design{
+        margin-left: -4em;
+    }
+
+    footer div a img{
+        height: 25px;
+    }
+    
+    footer{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 360px){
+    main{
+        background:#8342FF;
+    }
+
+    .launching-main p{
+        font-size: 35px;
+    }
+
+    .launching-main ul li{
+        font-size: 8px;
+    }
+
+    #request-beta,
+    #guilder {
+        font-size: 8px;
+    }
+
+    #robo-with-box-mascot{
+        display: none;
+    }
+
+    #blue-mascot,
+    #green-mascot{
+        width: 3.5em;
+        margin-bottom: -10px;
+    }
+
+    .orange-mascot{
+        width: 5em;
+        margin-bottom: -40px;
+    }
+
+    .wrapper-deco{
+        margin-top: -1em;
+
+    }
+    
+    .header-deco,
+    .header-hype-card {
+        font-size: 30px;
+        line-height: 25px;
+        margin-left: -2em;
+    }
+
+    #header-aggregator{
+        font-size: 25px;
+        line-height: 20px;
+        margin-left: 1em;
+    }
+
+    .deco-description,
+    .hype-card-description{
+        line-height: 1em;
+        font-size:7px;
+        margin-left: -8.5em;
+    }
+
+    .aggregator-left p{
+        padding-top: 1em;
+        line-height: 1em;
+        font-size:10px;
+    }
+
+    #deco-svg,
+    #hype-card-svg{
+        display: none;
+    }
+
+    #black-bg-aggregator{
+        display: none;
+    }
+
+    #aggregator-svg,
+    #contact-svg{
+        display: none;
+    }
+
+    .aggregator-left span{
+        font-size: 55px;
+        line-height: 45px;
+    }
+
+    .aggregator-left {
+        margin-left: 1em;
+    }
+
+    .aggregator-main{
+        background: #5556EF;
+        color: white;
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+        height: 15em;
+        position: static;
+        border: 1px solid black;
+    }
+
+    #blue-robot{
+        display: none;
+    }
+
+    .wrapper-hype-card{
+        margin-top: 1em;
+    }
+
+
+    #header-contact{
+        font-size: 55px;
+        line-height: 40px;
+        margin-left: -.5em;
+    }
+
+    .contact-left button{
+        font-size: .5em;
+        margin-left: -3em;
+        width: 30em;
+    }
+
+    #text-design{
+        margin-left: -4em;
+    }
+
+    footer div a img{
+        height: 25px;
+    }
+
+    footer{
+        font-size: 10px;
+    }
+}
+
+
 
 /* =============================================================== */

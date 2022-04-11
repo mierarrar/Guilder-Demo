@@ -1,7 +1,9 @@
 
+
+
 function scrollToTop() {
   document.querySelector('main').scrollIntoView({ 
-    behavior: 'smooth' 
+    behavior: 'smooth',
   });
 }
 

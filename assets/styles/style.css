@@ -115,12 +115,12 @@ main{
 }
 .launching-main ul a{
     text-decoration:none;
-    color: rgb(255, 233, 233);
+    color: white;
     cursor: pointer;
 }
 
 .launching-main ul a:hover{
-    color: rgb(255, 255, 255);
+    color: rgb(255, 233, 233);
 }
 
 .mascots{
@@ -367,8 +367,7 @@ footer ul li a:hover{
     right: 1.5em;
     z-index: 99;
     cursor: pointer;
-    height: 3.25em;
-    filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
+    height: 3.25em; 
   }
   
 

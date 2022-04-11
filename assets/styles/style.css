@@ -400,6 +400,10 @@ footer ul li a:hover{
    #aggregator-svg{
        width: 25.5em;
    }
+
+   #blue-robot{
+    left: 3.3em;
+    }
 }
 
 @media (min-width: 1120px) and (max-width: 1200px){
@@ -411,6 +415,10 @@ footer ul li a:hover{
     #aggregator-svg{
         width: 22em;
     }
+
+    #blue-robot{
+        left: 3.3em;
+        }
  }
 
 @media (min-width: 1000px) and (max-width: 1120px){

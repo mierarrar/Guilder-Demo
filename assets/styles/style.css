@@ -248,7 +248,6 @@ main{
     left: 6em;
 }
 
-/* ============================================================= */
 /* Section 4 -> Hype Card */
 
 .wrapper-hype-card{
@@ -273,7 +272,6 @@ main{
 }
 
 
-/* ============================================================= */
 /* Section 5 -> Contact Page */
 
 .contact{
@@ -327,7 +325,6 @@ main{
     margin-bottom: -5em;
 }
 
-/* ============================================================= */
 /* Footer */
 
 footer{
@@ -360,8 +357,6 @@ footer ul li a{
 footer ul li a:hover{
     color:antiquewhite;
 }
-
-/* ============================================================= */
 
 /* Scroll Button */
 
@@ -442,6 +437,7 @@ footer ul li a:hover{
     #black-bg-aggregator{
         margin: 12em 0;
     }
+
     #aggregator-svg,
     #contact-svg{
         display: none;
@@ -556,6 +552,11 @@ footer ul li a:hover{
         font-size: 100px;
         line-height: 90px;
     }
+
+    #scroll-btn {
+        right: 1em;
+        height: 2.5em; 
+    }
 }
 
 /* =============================================================== */
@@ -661,6 +662,11 @@ footer ul li a:hover{
 
     #text-design{
         margin-left: -4em;
+    }
+
+    #scroll-btn {
+        right: 1em;
+        height: 2em; 
     }
 }
 
@@ -769,6 +775,11 @@ footer ul li a:hover{
     #text-design{
         margin-left: -4em;
     }
+
+    #scroll-btn {
+        right: 1em;
+        height: 2em; 
+    }
 }
 
 @media (min-width: 400px) and (max-width: 500px){
@@ -876,6 +887,11 @@ footer ul li a:hover{
 
     #text-design{
         margin-left: -4em;
+    }
+
+    #scroll-btn {
+        right: 1em;
+        height: 2em; 
     }
 }
 
@@ -997,6 +1013,11 @@ footer ul li a:hover{
     
     footer{
         font-size: 10px;
+    }
+
+    #scroll-btn {
+        right: 1em;
+        height: 2em; 
     }
 }
 
@@ -1130,8 +1151,9 @@ footer ul li a:hover{
     footer{
         font-size: 10px;
     }
+
+    #scroll-btn {
+        right: 1em;
+        height: 2em; 
+    }
 }
-
-
-
-/* =============================================================== */

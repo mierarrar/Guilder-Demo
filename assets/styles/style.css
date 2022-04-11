@@ -962,7 +962,7 @@ footer ul li a:hover{
     }
 }
 
-@media (min-width: 360px) and (max-width: 500px){
+@media (min-width: 400px) and (max-width: 500px){
  
     #orange-head{
         display: none;
@@ -1093,82 +1093,113 @@ footer ul li a:hover{
     }
 }
 
-@media (max-width: 360px){
+@media (max-width: 400px){
     main{
         background:#8342FF;
     }
 
+    #request-beta{
+        font-size: 12px;
+    }
+
+    #guilder{
+        height: 1.7em;
+    }
+
     .launching-main p{
-        font-size: 35px;
+        font-size: 40px;
     }
 
     .launching-main ul li{
-        font-size: 8px;
+        font-size: 10px;
     }
 
-    #request-beta,
-    #guilder {
-        font-size: 8px;
+    #blue-mascot,
+    #green-mascot{
+        width: 5em;
+        margin-bottom: -2px;
+    }
+
+    .orange-mascot{
+        margin-left: 0;
+        margin-right: 0;
+        width: 6em;
+        margin-bottom: -32px;
     }
 
     #robo-with-box-mascot{
         display: none;
     }
 
-    #blue-mascot,
-    #green-mascot{
-        width: 3.5em;
-        margin-bottom: -10px;
-    }
-
-    .orange-mascot{
-        width: 5em;
-        margin-bottom: -40px;
+    #main-bottom{
+        height: 4em;
     }
 
     .wrapper-deco{
-        margin-top: -1em;
-
+        display: block;
+        text-align: center;
+        margin: 5em 0 2em 0;
+        padding: 0;
     }
     
     .header-deco,
     .header-hype-card {
-        font-size: 30px;
-        line-height: 25px;
-        margin-left: -2em;
+        font-size: 35px;
+        line-height: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    .header-hype-card{
+        margin-top: -1.7em;
     }
 
     #header-aggregator{
-        font-size: 25px;
-        line-height: 20px;
-        margin-left: 1em;
+        font-size: 35px;
+        line-height: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        
     }
 
     .deco-description,
     .hype-card-description{
         line-height: 1em;
-        font-size:7px;
-        margin-left: -8.5em;
+        font-size:12px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        
     }
 
     .aggregator-left p{
         padding-top: 1em;
         line-height: 1em;
-        font-size:10px;
+        font-size:12px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
     }
 
     #deco-svg,
     #hype-card-svg{
-        display: none;
+        width: 20em;
     }
 
     #black-bg-aggregator{
         display: none;
     }
 
-    #aggregator-svg,
     #contact-svg{
         display: none;
+    }
+
+    #aggregator-svg{
+        width: 18em;
+        margin: 0;
+        margin-top: -1em;
     }
 
     .aggregator-left span{
@@ -1182,13 +1213,16 @@ footer ul li a:hover{
 
     .aggregator-main{
         background: #5556EF;
-        color: white;
+        display: block;
         width: 100%;
+        color: white;
+        height: 100%;
         overflow: hidden;
         text-align: center;
-        height: 15em;
+        border-radius: 0;
         position: static;
-        border: 1px solid black;
+        border: none;
+        padding: 4em 3em 0 3em;
     }
 
     #blue-robot{
@@ -1196,28 +1230,33 @@ footer ul li a:hover{
     }
 
     .wrapper-hype-card{
-        margin-top: 1em;
+        display: block;
+        text-align: center;
+        margin: 5em 0 5em 0;
+        padding: 0;
     }
 
 
     #header-contact{
-        font-size: 55px;
-        line-height: 40px;
-        margin-left: -.5em;
+        font-size: 65px;
+        line-height: 55px;
+        margin-left: -.4em;
+        
     }
 
     .contact-left button{
-        font-size: .5em;
+        font-size: .8em;
         margin-left: -3em;
-        width: 30em;
+        width: 20em;
     }
 
     #text-design{
-        margin-left: -4em;
+        height: 9em;
+        margin-left: -5.2em;
     }
 
     footer div a img{
-        height: 25px;
+        height: 20px;
     }
 
     footer{

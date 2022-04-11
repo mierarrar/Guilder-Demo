@@ -54,6 +54,10 @@ table {
 /* ============================================================= */
 /* Section 1 -> Homepage */
 
+html{
+    scroll-behavior: smooth;
+}
+
 body *{
     font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
@@ -362,14 +366,14 @@ footer ul li a:hover{
 /* Scroll Button */
 
 #scroll-btn {
+    display: none;
     position: fixed;
     bottom: 11em;
     right: 1.5em;
     z-index: 99;
     cursor: pointer;
     height: 3.25em; 
-  }
-  
+}
 
 /* ============================================================= */
 

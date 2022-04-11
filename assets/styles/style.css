@@ -115,7 +115,12 @@ main{
 }
 .launching-main ul a{
     text-decoration:none;
-    color: rgb(252, 248, 248);
+    color: rgb(255, 233, 233);
+    cursor: pointer;
+}
+
+.launching-main ul a:hover{
+    color: rgb(255, 255, 255);
 }
 
 .mascots{
@@ -358,8 +363,7 @@ footer ul li a:hover{
 
 #scroll-btn {
     position: fixed;
-    display: none;
-    bottom: 12.5em;
+    bottom: 11em;
     right: 1.5em;
     z-index: 99;
     cursor: pointer;

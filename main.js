@@ -1,19 +1,25 @@
 
-var scrollToTopBtn = document.getElementById("scroll-btn");
-
-window.onscroll = function(){
-  scrollFunction()
-};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-    scrollToTopBtn.style.display = "block";
-  } else {
-    scrollToTopBtn.style.display = "none";
-  }
+function scrollToTop() {
+  document.querySelector('main').scrollIntoView({ 
+    behavior: 'smooth' 
+  });
 }
 
-function topFunction() {
-  document.body.scrollTop = 0; 
-  document.documentElement.scrollTop = 0; 
+function scrollToDeco() {
+  document.querySelector('#deco').scrollIntoView({ 
+    behavior: 'smooth' 
+  });
 }
+
+function scrollToAggregator() {
+  document.querySelector('#aggregator').scrollIntoView({ 
+    behavior: 'smooth' 
+  });
+}
+
+function scrollToHypecard() {
+  document.querySelector('#hype-card').scrollIntoView({ 
+    behavior: 'smooth' 
+  });
+}
+

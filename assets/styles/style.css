@@ -1271,3 +1271,29 @@ footer ul li a:hover{
         height: 2em; 
     }
 }
+
+/* ==================== */
+
+
+form {
+    text-align: center;
+    margin: 10em 10em;
+    padding: 2em;
+}
+
+form * {
+    margin: .25em;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+input {
+    width: 20em;
+    border: 2px solid black;
+}
+
+.send {
+    border: 2px solid black;
+    width: 5em;
+    cursor: pointer;
+}

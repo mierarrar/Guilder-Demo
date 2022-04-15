@@ -1,5 +1,4 @@
 
-
 var scrollTop = document.getElementById("scroll-btn");
 
 window.onscroll = function(){
@@ -14,9 +13,10 @@ function scrollfunction(){
     }
 }
 
-/*
-$(window).on('load',function(){
-    $(".loader").fadeOut(1000);
-    $(".contents").fadeIn(1000)
+scrollTop.addEventListener("click", function(){
+    window.scrollTo({
+        left: 0,
+        top: 0,
+        behavior: "smooth"
+    })
 })
-*/

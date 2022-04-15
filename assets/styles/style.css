@@ -49,10 +49,11 @@ table {
 @font-face {
     font-family: 'global';
     src: url(Global-mL1qm\ 3.ttf) format('truetype')
-  }
+}
 
 /* ============================================================= */
 /* Section 1 -> Homepage */
+
 
 html{
     scroll-behavior: smooth;
@@ -1274,26 +1275,37 @@ footer ul li a:hover{
 
 /* ==================== */
 
-
-form {
-    text-align: center;
-    margin: 10em 10em;
-    padding: 2em;
+/*
+.contents{
+    display: none;
 }
 
-form * {
-    margin: .25em;
-    padding: 1em;
-    border-radius: 10px;
+.loader{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #16191e;
+    position: absolute;
 }
 
-input {
-    width: 20em;
-    border: 2px solid black;
+.loader>div{
+    height: 100px;
+    width: 100px;
+    border: 5px solid #45474b;
+    border-top-color: #936EFF;
+    margin: auto;
+    margin-top: 45vh;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    animation: spin 1.5s infinite linear;
 }
 
-.send {
-    border: 2px solid black;
-    width: 5em;
-    cursor: pointer;
+@keyframes spin{
+    100% {
+        transform: rotate(360deg)
+    }
 }
+*/

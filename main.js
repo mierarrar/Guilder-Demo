@@ -20,3 +20,4 @@ scrollTop.addEventListener("click", function(){
         behavior: "smooth"
     })
 })
+

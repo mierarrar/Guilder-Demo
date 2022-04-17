@@ -1272,3 +1272,43 @@ footer ul li a:hover{
         height: 2em; 
     }
 }
+
+
+/* Safari 11+ */
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+    
+
+    .wrapper{
+        overflow: hidden;
+    }
+
+    .launching-main ul a{
+        text-decoration:none;
+        color: white;
+        padding: 0 .5em;
+        cursor: pointer;
+    }
+
+    #main-bottom{
+        background: #0E0E0E;
+        height: 100px;
+        width: auto;
+    }
+    
+    #robo-with-box-mascot{
+        position: relative;
+        left:79%;
+        height: 200px;
+    }
+
+    #contact-svg{
+        margin-bottom: -7.3em;
+    }
+
+    footer ul li a{
+        color: white;
+        padding: 0 1em;
+    }
+
+}}
